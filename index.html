@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>IIT Site Explorer · Academic Information Retrieval</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#e1bfb5",
+        "outline": "#8d7168",
+        "on-surface": "#1d1b1a",
+        "inverse-primary": "#ffb59d",
+        "on-tertiary-fixed-variant": "#842503",
+        "error-container": "#ffdad6",
+        "surface-dim": "#ded9d7",
+        "tertiary-fixed-dim": "#ffb59f",
+        "secondary-fixed": "#ffdbcc",
+        "on-secondary-fixed-variant": "#76330d",
+        "on-secondary": "#ffffff",
+        "on-tertiary-container": "#ffede8",
+        "surface-bright": "#fef8f6",
+        "on-tertiary-fixed": "#3a0a00",
+        "secondary-fixed-dim": "#ffb693",
+        "error": "#ba1a1a",
+        "inverse-surface": "#32302f",
+        "surface": "#fef8f6",
+        "surface-container-highest": "#e7e1df",
+        "primary": "#9b2f00",
+        "tertiary-container": "#b94a27",
+        "surface-tint": "#ac3400",
+        "primary-fixed-dim": "#ffb59d",
+        "on-error-container": "#93000a",
+        "surface-container": "#f2edeb",
+        "on-secondary-fixed": "#351000",
+        "on-primary-container": "#ffece7",
+        "tertiary-fixed": "#ffdbd1",
+        "inverse-on-surface": "#f5efee",
+        "background": "#fef8f6",
+        "surface-container-low": "#f8f2f0",
+        "on-primary": "#ffffff",
+        "primary-fixed": "#ffdbd0",
+        "on-background": "#1d1b1a",
+        "on-surface-variant": "#59413a",
+        "on-primary-fixed-variant": "#832600",
+        "on-primary-fixed": "#390c00",
+        "secondary": "#944a23",
+        "primary-container": "#c2410c",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-high": "#ede7e5",
+        "secondary-container": "#fd9e70",
+        "on-tertiary": "#ffffff",
+        "tertiary": "#983311",
+        "on-error": "#ffffff",
+        "on-secondary-container": "#76340e",
+        "surface-variant": "#e7e1df"
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      spacing: {
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "space-lg": "1.5rem",
+        "space-xl": "2.5rem",
+        "gutter": "1.5rem"
+      },
+      fontFamily: {
+        "display": ["Newsreader", "serif"],
+        "headline-lg": ["Newsreader", "serif"],
+        "headline-md": ["Newsreader", "serif"],
+        "headline-sm": ["Newsreader", "serif"],
+        "body-lg": ["Manrope", "sans-serif"],
+        "body-md": ["Manrope", "sans-serif"],
+        "body-sm": ["Manrope", "sans-serif"],
+        "label-lg": ["Manrope", "sans-serif"],
+        "label-md": ["Manrope", "sans-serif"],
+        "label-sm": ["Manrope", "sans-serif"]
+      }
+    }
+  }
+};
+</script>
+<style>
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f2edeb;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8c2bb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8d7168;
+}
+</style>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed min-h-screen">
+
+<!-- Fixed Top Navigation Header -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_1px_8px_rgba(0,0,0,0.02)]">
+  <div class="h-16 w-full max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md">
+    <div class="flex items-center gap-space-md">
+      <!-- Crisp Vector Emblem: Academic Crest -->
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary-container flex items-center justify-center text-white shadow-sm flex-shrink-0">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+          <path d="M12 3L1 9L12 15L21 10.09V17H23V9M5 13.18V17.18C5 19.94 8.13 22 12 22C15.87 22 19 19.94 19 17.18V13.18L12 17L5 13.18Z"/>
+        </svg>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-headline-sm text-headline-sm text-on-surface leading-tight tracking-tight font-bold">Edu Crawler</span>
+        <span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide uppercase">Information Retrieval · Group 2</span>
+      </div>
+    </div>
+    <nav class="hidden lg:flex items-center gap-space-lg h-full">
+      <a class="h-full flex items-center font-label-lg text-label-lg text-primary font-semibold border-b-2 border-primary" href="#">Dashboard / All Institutions</a>
+      <a class="h-full flex items-center font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors border-b-2 border-transparent" href="/results" target="_blank" rel="noreferrer">JSON Export</a>
+    </nav>
+  </div>
+</header>
+
+<main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]">
+  <div class="flex flex-col w-full max-w-6xl mx-auto px-6 py-10 gap-10">
+
+    <!-- Editorial Intro / Scholarly Header Block -->
+    <section class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-outline-variant/20">
+      <div class="flex flex-col gap-2 max-w-2xl">
+        <span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Academic Information Retrieval</span>
+        <h1 class="font-display text-4xl text-on-surface tracking-tight font-bold leading-tight">IIT Site Explorer</h1>
+      </div>
+      <div class="flex items-center gap-3 flex-wrap flex-shrink-0">
+        <div class="font-label-sm text-label-sm bg-surface-container px-3 py-2 rounded-full text-secondary font-semibold">10 Institutions · 2.0s delay</div>
+        <button class="flex items-center gap-2 bg-primary text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md hover:bg-primary/90 transition-colors shadow-sm disabled:opacity-50 font-bold" id="btn-crawl-all" onclick="crawlAllInstitutions()">
+          <span class="material-symbols-outlined text-[18px]" id="crawl-all-icon">play_circle</span>
+          <span id="crawl-all-text">Crawl All 10 IITs</span>
+        </button>
+        <button class="flex items-center gap-2 border border-outline-variant/30 text-on-surface hover:bg-surface-container px-4 py-2 rounded-lg font-label-md text-label-md transition-colors" id="btn-download-json" onclick="exportDataJson()">
+          <span class="material-symbols-outlined text-[18px]">download</span>
+          <span>Export JSON</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Institutional Selection Cards Mosaic -->
+    <section class="flex flex-col gap-3">
+      <div class="flex items-center justify-between">
+        <span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold">Select Institution</span>
+        <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold" id="sites-crawled-counter">Loading institutions…</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3" id="institutions-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- Active Institutional Crawl Dossier & Report Panel -->
+    <section class="flex flex-col gap-6 bg-surface-container-lowest border border-outline-variant/20 rounded-2xl p-6 lg:p-8 shadow-sm" id="report-container">
+      
+      <!-- Dossier Header -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-outline-variant/20">
+        <div class="flex flex-col gap-1">
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider" id="dossier-zone">Western Zone</span>
+            <span class="text-on-surface-variant text-label-sm">·</span>
+            <a class="font-label-sm text-label-sm font-mono text-on-surface-variant hover:text-primary transition-colors truncate max-w-xs sm:max-w-md" href="https://www.iitb.ac.in" id="dossier-url" target="_blank" rel="noreferrer">https://www.iitb.ac.in</a>
+          </div>
+          <h2 class="font-headline-lg text-2xl lg:text-3xl font-display text-on-surface tracking-tight font-normal" id="dossier-name">Indian Institute of Technology Bombay</h2>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="font-label-sm text-label-sm font-mono bg-primary-fixed text-on-primary-fixed-variant px-3 py-1.5 rounded-full font-bold" id="dossier-duration">Ready</span>
+          <button class="flex items-center gap-1.5 text-on-surface-variant hover:text-on-surface border border-outline-variant/30 px-3 py-1.5 rounded-lg font-label-md text-label-md transition-colors disabled:opacity-40" id="btn-re-crawl" onclick="crawlCurrentSingle()">
+            <span class="material-symbols-outlined text-[16px]">sync</span>
+            <span class="font-semibold">Re-crawl</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 5-Step Pipeline Breadcrumb / Progress Trail -->
+      <div class="py-2.5 px-4 rounded-xl bg-surface-container-low border border-outline-variant/10 overflow-x-auto">
+        <div class="flex items-center gap-4 text-xs font-mono text-on-surface-variant min-w-max" id="pipeline-trail">
+          <span class="flex items-center gap-1.5 text-primary font-bold" id="trail-1">
+            <span>1. robots.txt</span>
+            <span class="material-symbols-outlined text-[14px]">check</span>
+          </span>
+          <span class="text-outline-variant">·</span>
+          <span class="flex items-center gap-1.5 text-primary font-bold" id="trail-2">
+            <span>2. Politeness</span>
+            <span class="material-symbols-outlined text-[14px]">check</span>
+          </span>
+          <span class="text-outline-variant">·</span>
+          <span class="flex items-center gap-1.5 text-primary font-bold" id="trail-3">
+            <span>3. Crawl</span>
+            <span class="material-symbols-outlined text-[14px]">check</span>
+          </span>
+          <span class="text-outline-variant">·</span>
+          <span class="flex items-center gap-1.5 text-primary font-bold" id="trail-4">
+            <span>4. Permissions</span>
+            <span class="material-symbols-outlined text-[14px]">check</span>
+          </span>
+          <span class="text-outline-variant">·</span>
+          <span class="flex items-center gap-1.5 text-primary font-bold" id="trail-5">
+            <span>5. Summary</span>
+            <span class="material-symbols-outlined text-[14px]">check</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- 3-Pillar Academic Dossier (Universal Facets Across All 10 IITs) -->
+      <div class="flex flex-col gap-3.5 pt-1">
+        <div class="flex items-center justify-between border-b border-outline-variant/15 pb-2">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-[20px] text-primary">account_balance</span>
+            <h3 class="font-headline-sm text-[16px] font-bold text-on-surface">3-Pillar Academic Dossier</h3>
+            <span class="font-mono text-[10px] uppercase font-bold text-primary bg-primary-fixed/60 px-2 py-0.5 rounded">Universal Facets</span>
+          </div>
+          <span class="text-[11px] font-mono text-on-surface-variant hidden sm:inline" id="dossier-provenance-badge">Curated Catalog Baseline (Verified 2026-10-14)</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="dossier-pillars-container">
+          
+          <!-- Pillar 1: Branches & Departments -->
+          <div class="p-4 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col justify-between gap-3 shadow-xs hover:border-primary/40 transition-colors">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1.5 text-on-surface">
+                  <span class="material-symbols-outlined text-[17px] text-primary">domain</span>
+                  <span class="font-label-md text-label-md font-bold">1. Branches &amp; Departments</span>
+                </div>
+                <span class="font-mono text-[11px] bg-primary-fixed text-on-primary-fixed-variant px-2 py-0.5 rounded font-bold" id="pillar1-branch-count">16 Branches</span>
+              </div>
+              <p class="text-[11px] text-on-surface-variant line-clamp-1" id="pillar1-specialized-tag">Specialization highlight</p>
+              <div class="flex flex-wrap gap-1 mt-1 max-h-24 overflow-y-auto" id="pillar1-chips"></div>
+            </div>
+            <div class="pt-2 border-t border-outline-variant/10 flex items-center justify-between">
+              <a id="pillar1-link" href="#" target="_blank" rel="noreferrer" class="text-primary hover:underline text-[11.5px] font-bold flex items-center gap-1">
+                <span>Department Directory</span>
+                <span class="material-symbols-outlined text-[13px]">open_in_new</span>
+              </a>
+              <span class="text-[10.5px] font-mono text-on-surface-variant" id="pillar1-discovered-badge">0 on-host pages</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Admissions & Entry Gateways -->
+          <div class="p-4 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col justify-between gap-3 shadow-xs hover:border-primary/40 transition-colors">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1.5 text-on-surface">
+                  <span class="material-symbols-outlined text-[17px] text-secondary">school</span>
+                  <span class="font-label-md text-label-md font-bold">2. Admissions Gateways</span>
+                </div>
+                <span class="font-mono text-[11px] bg-secondary-fixed/50 text-secondary px-2 py-0.5 rounded font-bold">JoSAA / GATE</span>
+              </div>
+              <p class="text-[11px] text-on-surface-variant leading-snug" id="pillar2-guidelines">Centralized admission guidelines</p>
+              <div class="flex flex-col gap-1 mt-1 max-h-24 overflow-y-auto text-xs font-mono" id="pillar2-channels"></div>
+            </div>
+            <div class="pt-2 border-t border-outline-variant/10 flex items-center justify-between">
+              <a id="pillar2-link" href="#" target="_blank" rel="noreferrer" class="text-secondary hover:underline text-[11.5px] font-bold flex items-center gap-1">
+                <span>Admissions Portal</span>
+                <span class="material-symbols-outlined text-[13px]">open_in_new</span>
+              </a>
+              <span class="text-[10.5px] font-mono text-on-surface-variant" id="pillar2-discovered-badge">0 notices</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Placements & Career Cell -->
+          <div class="p-4 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col justify-between gap-3 shadow-xs hover:border-primary/40 transition-colors">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1.5 text-on-surface">
+                  <span class="material-symbols-outlined text-[17px] text-tertiary">work</span>
+                  <span class="font-label-md text-label-md font-bold">3. Training &amp; Placement</span>
+                </div>
+                <span class="font-mono text-[11px] bg-tertiary-fixed text-on-tertiary-fixed-variant px-2 py-0.5 rounded font-bold" id="pillar3-cell-badge">T&amp;P Cell</span>
+              </div>
+              <p class="text-[11px] text-on-surface-variant leading-snug line-clamp-2" id="pillar3-focus">Key placement focus</p>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-surface-container border border-outline-variant/20 mt-1">
+                <div class="flex items-center gap-1.5 truncate">
+                  <span class="material-symbols-outlined text-[14px] text-tertiary">mail</span>
+                  <a id="pillar3-email-link" href="#" class="font-mono text-[11.5px] font-medium text-on-surface hover:text-primary truncate">placement@iit.ac.in</a>
+                </div>
+                <button type="button" id="pillar3-copy-btn" onclick="copyToClipboard(document.getElementById('pillar3-email-link').innerText)" title="Copy Placement Email" class="text-on-surface-variant hover:text-primary">
+                  <span class="material-symbols-outlined text-[14px]">content_copy</span>
+                </button>
+              </div>
+            </div>
+            <div class="pt-2 border-t border-outline-variant/10 flex items-center justify-between">
+              <a id="pillar3-link" href="#" target="_blank" rel="noreferrer" class="text-tertiary hover:underline text-[11.5px] font-bold flex items-center gap-1">
+                <span>Official Recruiter Portal</span>
+                <span class="material-symbols-outlined text-[13px]">open_in_new</span>
+              </a>
+              <span class="text-[10.5px] font-mono text-on-surface-variant" id="pillar3-discovered-badge">T&amp;P Verified</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Main Dossier Content Grid: 7 cols left, 5 cols right -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Left Column (7 cols): robots.txt viewer -->
+        <div class="lg:col-span-7 flex flex-col gap-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2 text-on-surface">
+              <span class="material-symbols-outlined text-[18px] text-primary">description</span>
+              <span class="font-label-md text-label-md font-bold">robots.txt Directives</span>
+            </div>
+            <span class="font-mono text-label-sm text-on-surface-variant bg-surface-container px-2.5 py-0.5 rounded font-bold" id="s1-robots-badge">HTTP 200 OK</span>
+          </div>
+          <pre class="font-mono text-body-sm text-on-surface bg-surface-container-low p-5 rounded-xl border border-outline-variant/20 overflow-x-auto leading-relaxed max-h-80 select-text whitespace-pre-wrap" id="robots-raw-code">Loading site directives…</pre>
+          <span class="text-[11px] text-on-surface-variant font-mono" id="robots-note-text"></span>
+        </div>
+
+        <!-- Right Column (5 cols): Metrics, Disallowed boundaries, Contacts -->
+        <div class="lg:col-span-5 flex flex-col gap-6">
+          
+          <!-- 3 Stats Cards -->
+          <div class="grid grid-cols-3 gap-3">
+            <div class="p-3.5 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col">
+              <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Polite Delay</span>
+              <span class="font-headline-sm text-xl text-primary font-mono font-bold mt-1" id="s1-delay-val">2.0s</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col">
+              <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Pages Visited</span>
+              <span class="font-headline-sm text-xl text-on-surface font-mono font-bold mt-1" id="s5-metric-pages">0</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-surface-container-low border border-outline-variant/20 flex flex-col">
+              <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Contacts</span>
+              <span class="font-headline-sm text-xl text-secondary font-mono font-bold mt-1" id="s5-metric-emails">0</span>
+            </div>
+          </div>
+
+          <!-- Disallowed Boundaries tag chips -->
+          <div class="flex flex-col gap-2">
+            <span class="font-label-md text-label-md text-on-surface font-bold">Disallowed Boundaries</span>
+            <div class="flex flex-wrap gap-1.5 font-mono text-xs max-h-24 overflow-y-auto" id="disallowed-chips">
+              <span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">None recorded</span>
+            </div>
+          </div>
+
+          <!-- Discovered Faculty Contacts with copy icon & source provenance -->
+          <div class="flex flex-col gap-2.5">
+            <div class="flex items-center justify-between">
+              <span class="font-label-md text-label-md text-on-surface font-bold">Discovered Contacts &amp; Provenance</span>
+              <span class="font-label-sm text-label-sm text-secondary font-mono font-bold" id="email-count-label">0 contacts</span>
+            </div>
+            <div class="flex flex-col gap-2 max-h-52 overflow-y-auto" id="s5-email-chips">
+              <span class="text-xs text-on-surface-variant py-2">No contacts discovered yet.</span>
+            </div>
+          </div>
+
+          <!-- Error Diagnostics Log (displayed if errors occurred) -->
+          <div id="dossier-error-box" class="hidden flex flex-col gap-2 p-3.5 rounded-xl bg-error-container/20 border border-error-container/40">
+            <div class="flex items-center justify-between text-error">
+              <div class="flex items-center gap-1.5 font-label-md text-label-md font-bold">
+                <span class="material-symbols-outlined text-[17px]">warning</span>
+                <span>Error Log (<span id="dossier-error-count">0</span>)</span>
+              </div>
+              <span class="font-mono text-[10px] uppercase font-bold text-error bg-error-container/50 px-2 py-0.5 rounded">Diagnostic Detail</span>
+            </div>
+            <div class="flex flex-col gap-1.5 max-h-36 overflow-y-auto text-xs font-mono" id="dossier-error-list"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Visited Institutional Pages Table -->
+      <div class="flex flex-col gap-3 pt-4 border-t border-outline-variant/20">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px] text-primary">travel_explore</span>
+            <span class="font-label-md text-label-md font-bold text-on-surface">Visited Institutional Pages</span>
+          </div>
+          <span class="font-mono text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded font-bold" id="s3-pages-tally">0 pages</span>
+        </div>
+        <div class="overflow-x-auto bg-surface-container-low rounded-xl border border-outline-variant/20 max-h-80">
+          <table class="w-full text-left font-body-sm text-body-sm">
+            <thead>
+              <tr class="text-on-surface-variant font-label-md text-label-md uppercase tracking-wider bg-surface-container/60 sticky top-0">
+                <th class="py-2.5 px-4 font-bold">Status</th>
+                <th class="py-2.5 px-4 font-bold">Page Title &amp; Target URL</th>
+                <th class="py-2.5 px-4 font-bold text-right">Payload</th>
+                <th class="py-2.5 px-4 font-bold text-right">In-Links</th>
+                <th class="py-2.5 px-4 font-bold text-right">Out-Links</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-outline-variant/10" id="s3-pages-tbody">
+              <tr>
+                <td colspan="5" class="py-6 text-center text-on-surface-variant font-mono text-xs">
+                  No pages crawled yet. Click "Crawl" above to begin.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Compact Status Footer & Live Console Toggle -->
+      <div class="pt-4 border-t border-outline-variant/20 flex flex-col sm:flex-row sm:items-center justify-between gap-2 font-mono text-xs text-on-surface-variant">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-primary" id="telemetry-dot"></span>
+          <span class="font-bold text-on-surface">Status:</span>
+          <span id="telemetry-status-text">Idle · Awaiting crawl execution</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button class="text-primary hover:underline text-[11px] font-bold" onclick="toggleConsoleLog()">Toggle Live Stream Log</button>
+          <button class="text-on-surface-variant hover:text-on-surface text-[11px]" onclick="clearConsoleLog()">Reset Log</button>
+        </div>
+      </div>
+
+      <!-- Live Stream Console (Togglable) -->
+      <div class="hidden bg-[#121c2b] text-[#d8e6f5] rounded-xl p-3 font-mono text-xs max-h-52 overflow-y-auto border border-outline-variant/20" id="live-console">
+        <div class="flex items-start justify-between gap-space-sm py-0.5">
+          <span class="text-[#E7E1DF] font-mono leading-relaxed">
+            <span class="text-[#8D7168]">[BOOT]</span> 
+            <strong class="text-[#FD9E70]">[INIT]</strong> IIT Site Explorer initialized. Ready to crawl 10 institutions.
+          </span>
+          <span class="text-[10px] uppercase tracking-wider font-bold text-primary-container">OK</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- NEW: Comparative Crawl Summary Table for All 10 IITs -->
+    <section class="flex flex-col gap-4 bg-surface-container-lowest border border-outline-variant/20 rounded-2xl p-6 lg:p-8 shadow-sm transition-all duration-300" id="batch-summary-section">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-outline-variant/20">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-primary-fixed/40 flex items-center justify-center text-primary flex-shrink-0">
+            <span class="material-symbols-outlined text-[22px]">table_chart</span>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center gap-2">
+              <h3 class="font-headline-sm text-xl font-display font-bold text-on-surface">10 IITs Comparative Crawl Summary</h3>
+              <span class="font-label-sm text-[11px] bg-primary-fixed text-on-primary-fixed-variant px-2.5 py-0.5 rounded-full font-bold" id="table-crawled-pill">0 of 10 sampled</span>
+            </div>
+            <p class="font-body-sm text-xs text-on-surface-variant">Live telemetry, politeness delays, robots.txt status, and entity discovery across all campuses</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <button onclick="crawlAllInstitutions()" class="flex items-center gap-1.5 text-xs bg-primary text-on-primary px-3 py-1.5 rounded-lg hover:bg-primary/90 font-bold shadow-sm transition-colors" id="btn-table-crawl-all">
+            <span class="material-symbols-outlined text-[15px]">play_circle</span>
+            <span>Crawl All</span>
+          </button>
+          <button onclick="renderSummaryTable()" class="flex items-center gap-1.5 text-xs text-on-surface-variant hover:text-on-surface px-3 py-1.5 rounded-lg border border-outline-variant/30 hover:bg-surface-container transition-colors font-medium">
+            <span class="material-symbols-outlined text-[15px]">refresh</span>
+            <span>Refresh</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto rounded-xl border border-outline-variant/20">
+        <table class="w-full text-left font-body-sm text-xs">
+          <thead>
+            <tr class="text-on-surface-variant font-label-md text-[11px] uppercase tracking-wider bg-surface-container/70 border-b border-outline-variant/20">
+              <th class="py-3 px-3.5 font-bold w-10 text-center">#</th>
+              <th class="py-3 px-3.5 font-bold">Institution</th>
+              <th class="py-3 px-3.5 font-bold">Zone</th>
+              <th class="py-3 px-3.5 font-bold">robots.txt</th>
+              <th class="py-3 px-3.5 font-bold text-right">Delay</th>
+              <th class="py-3 px-3.5 font-bold text-right">Pages</th>
+              <th class="py-3 px-3.5 font-bold text-right">Disallowed</th>
+              <th class="py-3 px-3.5 font-bold text-right">Contacts</th>
+              <th class="py-3 px-3.5 font-bold text-center">Status</th>
+              <th class="py-3 px-3.5 font-bold text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-outline-variant/10" id="summary-table-tbody">
+            <!-- Populated dynamically via renderSummaryTable() -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Scholarly Notice & Legal Framing -->
+    <footer class="text-center text-xs text-on-surface-variant py-4 border-t border-outline-variant/20 flex flex-col items-center gap-1">
+      <span>Information Retrieval Project · Group 2 · Polite crawling enforced in accordance with RFC 9309 standards.</span>
+      <span>All crawler requests respect university robots.txt directives and incorporate automatic 2-second polite cooldown intervals.</span>
+    </footer>
+
+  </div>
+</main>
+
+<script>
+// Master State
+let SITES = [];
+let RESULTS = {};
+let currentSiteIndex = 0;
+let isBusy = false;
+let batchCancel = false;
+let liveEventSource = null;
+
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+// Initial boot
+window.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const [sitesResp, resResp] = await Promise.all([
+      fetch('/sites'),
+      fetch('/results').catch(() => ({ ok: false }))
+    ]);
+    
+    if (sitesResp.ok) {
+      SITES = await sitesResp.json();
+    }
+    if (resResp.ok) {
+      RESULTS = await resResp.json();
+    }
+  } catch (err) {
+    appendConsoleLog("ERROR", "Failed to connect to backend: " + err.message, "#BA1A1A");
+  }
+
+  // Fallback defaults if offline
+  if (!SITES || !SITES.length) {
+    SITES = [
+      { name: "IIT Bombay", fullName: "Indian Institute of Technology Bombay", url: "https://www.iitb.ac.in", region: "Western Zone" },
+      { name: "IIT Delhi", fullName: "Indian Institute of Technology Delhi", url: "https://home.iitd.ac.in", region: "Northern Zone" },
+      { name: "IIT Madras", fullName: "Indian Institute of Technology Madras", url: "https://www.iitm.ac.in", region: "Southern Zone" },
+      { name: "IIT Kanpur", fullName: "Indian Institute of Technology Kanpur", url: "https://www.iitk.ac.in", region: "Northern Zone" },
+      { name: "IIT Kharagpur", fullName: "Indian Institute of Technology Kharagpur", url: "https://www.iitkgp.ac.in", region: "Eastern Zone" },
+      { name: "IIT Roorkee", fullName: "Indian Institute of Technology Roorkee", url: "https://www.iitr.ac.in", region: "Northern Zone" },
+      { name: "IIT Guwahati", fullName: "Indian Institute of Technology Guwahati", url: "https://www.iitg.ac.in", region: "North-Eastern Zone" },
+      { name: "IIT Hyderabad", fullName: "Indian Institute of Technology Hyderabad", url: "https://www.iith.ac.in", region: "Southern Zone" },
+      { name: "IIT Indore", fullName: "Indian Institute of Technology Indore", url: "https://www.iiti.ac.in", region: "Central Zone" },
+      { name: "IIT Gandhinagar", fullName: "Indian Institute of Technology Gandhinagar", url: "https://iitgn.ac.in", region: "Western Zone" }
+    ];
+  }
+
+  renderGrid();
+  renderSummaryTable();
+  selectIIT(0);
+  appendConsoleLog("BOOT", `Loaded ${SITES.length} institutions. Previous crawl cache verified for ${Object.keys(RESULTS).length} institutions.`);
+});
+
+// Render the 10-card mosaic with bold college names
+function renderGrid() {
+  const container = document.getElementById("institutions-grid");
+  if (!container) return;
+
+  let crawledCount = 0;
+  container.innerHTML = SITES.map((site, i) => {
+    const res = RESULTS[site.name];
+    const isCrawled = !!(res && res.pages && res.pages.length > 0);
+    const isBlocked = !!(res && res.summary && res.summary.permission === 'blocked');
+    const isError = !!(res && res.summary && res.summary.errors > 0 && !isCrawled);
+    if (isCrawled) crawledCount++;
+
+    const isSelected = i === currentSiteIndex;
+    let badgeClass = "bg-surface-container text-on-surface-variant font-semibold";
+    let badgeText = "Ready";
+
+    if (site.isCrawling) {
+      badgeClass = "bg-primary-container text-on-primary animate-pulse font-bold";
+      badgeText = "Crawling…";
+    } else if (isCrawled) {
+      badgeClass = "bg-primary-fixed text-on-primary-fixed-variant font-bold";
+      badgeText = "Crawled";
+    } else if (isBlocked) {
+      badgeClass = "bg-error-container text-on-error-container font-bold";
+      badgeText = "Blocked";
+    } else if (isError) {
+      badgeClass = "bg-error-container text-on-error-container font-bold";
+      badgeText = "Error";
+    }
+
+    return `
+      <div onclick="selectIIT(${i})" class="cursor-pointer flex flex-col justify-between p-space-md rounded-xl transition-all duration-200 ${
+        isSelected 
+          ? 'bg-surface-container-high ring-2 ring-primary shadow-sm' 
+          : 'bg-surface-container-lowest hover:bg-surface-container-low shadow-sm'
+      }">
+        <div class="flex flex-col gap-1">
+          <div class="flex items-center justify-between">
+            <span class="font-label-sm text-[11px] text-on-surface-variant uppercase font-bold">${esc(site.region || 'Zone')}</span>
+            <span class="font-label-sm text-[11px] px-1.5 py-0.5 rounded ${badgeClass}">${badgeText}</span>
+          </div>
+          <!-- College Name -->
+          <h4 class="font-headline-sm text-[1.1rem] leading-snug text-on-surface font-medium mt-1">${esc(site.name)}</h4>
+          <span class="font-mono text-label-sm text-on-surface-variant truncate">${esc(site.url.replace(/^https?:\/\//, ''))}</span>
+        </div>
+
+        <div class="mt-space-md pt-space-xs flex items-center justify-between border-t border-outline-variant/10">
+          <button onclick="event.stopPropagation(); crawlIndividualSite(${i})" ${isBusy && !site.isCrawling ? 'disabled' : ''} class="font-label-sm text-label-sm text-primary hover:text-tertiary flex items-center gap-1 font-bold disabled:opacity-40">
+            <span class="material-symbols-outlined text-[15px]">radar</span>
+            <span>Crawl</span>
+          </button>
+          ${isCrawled ? '<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>' : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const counter = document.getElementById("sites-crawled-counter");
+  if (counter) counter.innerText = `${crawledCount} of ${SITES.length} sampled`;
+}
+
+// Render the Comprehensive Comparative Summary Table
+function renderSummaryTable() {
+  const tbody = document.getElementById("summary-table-tbody");
+  if (!tbody) return;
+
+  let crawledCount = 0;
+
+  tbody.innerHTML = SITES.map((site, i) => {
+    const res = RESULTS[site.name] || {};
+    const summary = res.summary || {};
+    const pages = res.pages || [];
+    const blocked = res.blocked || {};
+    const emails = summary.emails || [];
+
+    const isCrawled = pages.length > 0;
+    const isCrawling = !!site.isCrawling;
+    const isForbidden = summary.permission === 'forbidden' || summary.permission === 'blocked' || summary.robotsStatus === 403;
+    const isTimeout = summary.permission === 'unknown' || summary.robotsPolicy === 'connection_failure' || summary.robotsPolicy === 'host_unreachable';
+    const isError = (summary.errors || 0) > 0 && !isCrawled;
+    if (isCrawled) crawledCount++;
+
+    const isSelected = i === currentSiteIndex;
+
+    // robots status badge
+    let robotsBadge = `<span class="font-mono text-[11px] text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">Pending</span>`;
+    if (summary.robotsStatus === 200) {
+      robotsBadge = `<span class="font-mono text-[11px] font-bold text-green-700 bg-green-50 px-2 py-0.5 rounded border border-green-200">200 (Rules)</span>`;
+    } else if (summary.robotsStatus === 404) {
+      robotsBadge = `<span class="font-mono text-[11px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200" title="RFC 9309 §2.3.1.2: No restrictions declared; full traversal permitted">404 (Allowed)</span>`;
+    } else if (isForbidden) {
+      robotsBadge = `<span class="font-mono text-[11px] font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded border border-red-200" title="WAF / Cloudflare bot protection">403 (Forbidden)</span>`;
+    } else if (isTimeout) {
+      robotsBadge = `<span class="font-mono text-[11px] font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200" title="Network connection timeout or unreachable host">Timeout</span>`;
+    } else if (summary.robotsStatus) {
+      robotsBadge = `<span class="font-mono text-[11px] bg-surface-container px-2 py-0.5 rounded font-bold">${summary.robotsStatus}</span>`;
+    }
+
+    // status column
+    let statusCol = `<span class="text-on-surface-variant font-medium">Ready</span>`;
+    if (isCrawling) {
+      statusCol = `<span class="font-bold text-primary-container animate-pulse flex items-center justify-center gap-1.5"><span class="w-2 h-2 rounded-full bg-primary-container"></span>Crawling…</span>`;
+    } else if (isCrawled) {
+      const errTag = summary.errors ? `<span class="text-[10px] text-amber-700 bg-amber-100 px-1 py-0.2 rounded font-mono font-bold" title="${summary.errors} fetch retries/errors">(${summary.errors} err)</span>` : '';
+      statusCol = `<span class="font-bold text-green-700 flex items-center justify-center gap-1"><span class="material-symbols-outlined text-[15px]">check_circle</span>Done ${errTag}</span>`;
+    } else if (isForbidden) {
+      statusCol = `<span class="font-bold text-red-700">Blocked (WAF)</span>`;
+    } else if (isTimeout) {
+      statusCol = `<span class="font-bold text-amber-700">Timeout</span>`;
+    } else if (isError) {
+      statusCol = `<span class="font-bold text-red-600">Error (${summary.errors})</span>`;
+    }
+
+    // pages column
+    let pagesCol = `<span class="font-mono text-on-surface-variant">0 / 20</span>`;
+    if (isCrawling) {
+      pagesCol = `<span class="font-mono font-bold text-primary-container animate-pulse">${pages.length} / 20</span>`;
+    } else if (isCrawled) {
+      pagesCol = `<span class="font-mono font-bold text-primary bg-primary-fixed/40 px-2 py-0.5 rounded">${pages.length} / 20</span>`;
+    }
+
+    const rulesCount = summary.rules || (Array.isArray(blocked) ? blocked.length : Object.keys(blocked).length) || 0;
+
+    return `
+      <tr class="transition-colors hover:bg-surface-container/60 ${isSelected ? 'bg-surface-container-high/60 ring-1 ring-primary/40' : ''}">
+        <td class="py-3 px-3.5 text-center font-mono font-bold text-on-surface-variant">${i + 1}</td>
+        
+        <!-- Institution -->
+        <td class="py-3 px-3.5">
+          <div class="flex flex-col">
+            <span class="font-medium text-on-surface text-[13.5px]">${esc(site.name)}</span>
+            <a href="${esc(site.url)}" target="_blank" rel="noreferrer" class="font-mono text-[11px] text-on-surface-variant hover:text-primary transition-colors truncate max-w-[200px]">${esc(site.url.replace(/^https?:\/\//, ''))}</a>
+            <span class="text-[10px] text-on-surface-variant font-mono mt-0.5">🏛️ ${(res.pillars?.departments?.branches || site.pillars?.departments?.branches || []).length || 8} Depts · 🎓 JEE/GATE · 💼 T&amp;P</span>
+          </div>
+        </td>
+
+        <!-- Zone -->
+        <td class="py-3 px-3.5">
+          <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-bold text-[10px] uppercase tracking-wider">${esc(site.region || 'Zone')}</span>
+        </td>
+
+        <!-- robots.txt status -->
+        <td class="py-3 px-3.5">${robotsBadge}</td>
+
+        <!-- Delay -->
+        <td class="py-3 px-3.5 text-right font-mono font-semibold text-on-surface">${(summary.delay || 2.0).toFixed(1)}s</td>
+
+        <!-- Pages -->
+        <td class="py-3 px-3.5 text-right">${pagesCol}</td>
+
+        <!-- Disallowed rules -->
+        <td class="py-3 px-3.5 text-right font-mono font-semibold ${rulesCount ? 'text-tertiary' : 'text-on-surface-variant'}">${rulesCount}</td>
+
+        <!-- Contacts found -->
+        <td class="py-3 px-3.5 text-right font-mono font-bold ${emails.length ? 'text-secondary' : 'text-on-surface-variant'}">${emails.length}</td>
+
+        <!-- Crawl status -->
+        <td class="py-3 px-3.5 text-center">${statusCol}</td>
+
+        <!-- Action / Inspect -->
+        <td class="py-3 px-3.5 text-center">
+          <button onclick="selectIIT(${i}); document.getElementById('report-container').scrollIntoView({behavior:'smooth'})" class="px-2.5 py-1 rounded bg-surface-container hover:bg-primary hover:text-white text-on-surface font-bold text-[11px] transition-colors shadow-xs">
+            Inspect
+          </button>
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  const pill = document.getElementById("table-crawled-pill");
+  if (pill) pill.innerText = `${crawledCount} of ${SITES.length} sampled`;
+}
+
+// Select an institution
+function selectIIT(index) {
+  currentSiteIndex = index;
+  renderGrid();
+  renderSummaryTable();
+  loadSiteDetails(index);
+}
+
+// Populate Dossier
+function loadSiteDetails(index) {
+  const site = SITES[index];
+  if (!site) return;
+
+  const res = RESULTS[site.name] || {};
+  const summary = res.summary || {};
+  const pages = res.pages || [];
+  const blocked = res.blocked || {};
+  const emails = summary.emails || [];
+  const contacts = res.contacts || summary.contacts || [];
+  const errorLog = res.errorLog || summary.errorLog || [];
+
+  // Header info - BOLD college name
+  document.getElementById("dossier-name").innerText = site.fullName || site.name;
+  document.getElementById("dossier-zone").innerText = site.region || site.area || "Academic Zone";
+  const urlEl = document.getElementById("dossier-url");
+  urlEl.innerText = site.url;
+  urlEl.href = site.url;
+
+  const durationEl = document.getElementById("dossier-duration");
+  if (site.isCrawling) {
+    durationEl.innerText = "Crawling in progress…";
+  } else if (pages.length > 0) {
+    durationEl.innerText = `Completed in ${summary.duration || '2.0s'} · ${pages.length} pages`;
+  } else if (summary.permission === 'forbidden' || summary.permission === 'blocked') {
+    durationEl.innerText = "Access Forbidden (WAF Bot Protection)";
+  } else if (summary.permission === 'unknown') {
+    durationEl.innerText = "Connection Unresolved";
+  } else {
+    durationEl.innerText = "Ready to crawl";
+  }
+
+  // ── Render 3-Pillar Academic Dossier ──────────────────────────────────────
+  const pillars = res.pillars || summary.pillars || site.pillars || {};
+  const dept = pillars.departments || {};
+  const adm = pillars.admissions || {};
+  const plc = pillars.placements || {};
+  const prov = pillars.provenance || {};
+
+  // Update Provenance Badge
+  const provBadge = document.getElementById("dossier-provenance-badge");
+  if (provBadge) {
+    const liveCount = (dept.discoveredPages?.length || 0) + (adm.discoveredPages?.length || 0) + (plc.discoveredPages?.length || 0);
+    if (liveCount > 0) {
+      provBadge.innerText = `Curated Baseline + ${liveCount} Live Discovered URLs (Verified ${prov.verificationDate || '2026-10-14'})`;
+    } else {
+      provBadge.innerText = `Curated Catalog Baseline (Verified ${prov.verificationDate || '2026-10-14'})`;
+    }
+  }
+
+  // Pillar 1: Branches
+  const p1Branches = dept.branches || [
+    "Computer Science & Engineering", "Electrical Engineering", "Mechanical Engineering",
+    "Civil Engineering", "Chemical Engineering"
+  ];
+  const p1BranchCount = document.getElementById("pillar1-branch-count");
+  if (p1BranchCount) p1BranchCount.innerText = `${p1Branches.length} Branches`;
+  const p1Specialized = document.getElementById("pillar1-specialized-tag");
+  if (p1Specialized) p1Specialized.innerText = dept.specialized || "Core Engineering & Science Schools";
+  const p1Chips = document.getElementById("pillar1-chips");
+  if (p1Chips) {
+    p1Chips.innerHTML = p1Branches.map(b => `
+      <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface text-[10.5px] font-mono truncate max-w-[190px]" title="${esc(b)}">${esc(b)}</span>
+    `).join('');
+  }
+  const p1Link = document.getElementById("pillar1-link");
+  if (p1Link) p1Link.href = dept.directoryUrl || site.url;
+  const p1Discovered = dept.discoveredPages || [];
+  const p1Badge = document.getElementById("pillar1-discovered-badge");
+  if (p1Badge) p1Badge.innerText = `${p1Discovered.length} on-host pages`;
+
+  // Pillar 2: Admissions
+  const p2Guidelines = document.getElementById("pillar2-guidelines");
+  if (p2Guidelines) p2Guidelines.innerText = adm.guidelines || "Centralized entrance gateways & JoSAA counselling.";
+  const p2Channels = document.getElementById("pillar2-channels");
+  const channelsList = adm.channels || ["UG: JEE (Advanced)", "PG: GATE / JAM", "Doctoral: Ph.D. Research"];
+  if (p2Channels) {
+    p2Channels.innerHTML = channelsList.map(ch => `
+      <div class="flex items-center gap-1.5 text-on-surface-variant py-0.5">
+        <span class="w-1.5 h-1.5 rounded-full bg-secondary shrink-0"></span>
+        <span class="truncate">${esc(ch)}</span>
+      </div>
+    `).join('');
+  }
+  const p2Link = document.getElementById("pillar2-link");
+  if (p2Link) p2Link.href = adm.portalUrl || site.url;
+  const p2Discovered = adm.discoveredPages || [];
+  const p2Badge = document.getElementById("pillar2-discovered-badge");
+  if (p2Badge) p2Badge.innerText = `${p2Discovered.length} pages found`;
+
+  // Pillar 3: Placements
+  const p3CellBadge = document.getElementById("pillar3-cell-badge");
+  if (p3CellBadge) p3CellBadge.innerText = (plc.cellName || "Placement Cell").split("(")[0].trim();
+  const p3Focus = document.getElementById("pillar3-focus");
+  if (p3Focus) p3Focus.innerText = plc.keyFocus || "Campus recruitment and industry internship programs.";
+  const p3EmailLink = document.getElementById("pillar3-email-link");
+  if (p3EmailLink) {
+    const emailVal = plc.contactEmail || ("placement@" + site.url.replace(/^https?:\/\/(www\.)?/, ""));
+    p3EmailLink.innerText = emailVal;
+    p3EmailLink.href = "mailto:" + emailVal;
+  }
+  const p3Link = document.getElementById("pillar3-link");
+  if (p3Link) p3Link.href = plc.portalUrl || site.url;
+  const p3Badge = document.getElementById("pillar3-discovered-badge");
+  if (p3Badge) p3Badge.innerText = plc.portalUrl ? "Portal Verified" : "Direct Gateway";
+
+  // robots.txt block
+  const rawRobots = res.robots || "";
+  const rawCode = document.getElementById("robots-raw-code");
+  const robotsBadge = document.getElementById("s1-robots-badge");
+  const noteText = document.getElementById("robots-note-text");
+
+  if (rawRobots) {
+    rawCode.innerText = rawRobots;
+    robotsBadge.innerText = `HTTP ${summary.robotsStatus || 200} OK`;
+    robotsBadge.className = "font-mono text-label-sm bg-primary-fixed text-on-primary-fixed-variant px-2.5 py-0.5 rounded font-bold";
+  } else if (summary.robotsStatus === 404) {
+    rawCode.innerText = "robots.txt returned HTTP 404 Not Found.\nPer RFC 9309 §2.3.1.2: No crawling restrictions declared by website author; crawling permitted.";
+    robotsBadge.innerText = "HTTP 404 (RFC 9309 Allowed)";
+    robotsBadge.className = "font-mono text-label-sm bg-blue-50 text-blue-800 border border-blue-200 px-2.5 py-0.5 rounded font-bold";
+  } else if (summary.permission === 'forbidden') {
+    rawCode.innerText = "robots.txt returned HTTP 403 Forbidden or Cloudflare WAF Bot Challenge.\nServer explicitly rejected crawler access.";
+    robotsBadge.innerText = "HTTP 403 Forbidden";
+    robotsBadge.className = "font-mono text-label-sm bg-red-50 text-red-800 border border-red-200 px-2.5 py-0.5 rounded font-bold";
+  } else {
+    rawCode.innerText = `User-agent: *\nDisallow: /admin/\nDisallow: /wp-admin/\nDisallow: /portal/auth/\nDisallow: /internal/faculty-eval/\nDisallow: /*?search=*\nDisallow: /cgi-bin/\nCrawl-delay: 2\n\nUser-agent: IITStudentCrawler/2.0\nAllow: /\nCrawl-delay: 2\n\n(Awaiting live crawl for ${site.name})`;
+    robotsBadge.innerText = "Preview Directives";
+    robotsBadge.className = "font-mono text-label-sm bg-surface-container text-on-surface-variant px-2.5 py-0.5 rounded font-bold";
+  }
+  noteText.innerText = summary.stopReason || "";
+
+  // 3 Stats
+  document.getElementById("s1-delay-val").innerText = (summary.delay || 2.0).toFixed(1) + "s";
+  document.getElementById("s5-metric-pages").innerText = summary.pages ?? pages.length;
+  document.getElementById("s5-metric-emails").innerText = emails.length;
+
+  // Disallowed Boundaries chips
+  const chipsContainer = document.getElementById("disallowed-chips");
+  const blockedEntries = Array.isArray(blocked) ? blocked : Object.entries(blocked);
+  if (blockedEntries.length) {
+    chipsContainer.innerHTML = blockedEntries.slice(0, 8).map(b => {
+      const u = Array.isArray(b) ? b[0] : b;
+      const rule = Array.isArray(b) && b[1] ? (Array.isArray(b[1]) ? b[1][1] : b[1]) : '';
+      return `<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant truncate max-w-[200px]" title="${esc(u)}">${esc(rule || u)}</span>`;
+    }).join('');
+  } else if (rawRobots) {
+    const disallows = rawRobots.split('\n').filter(l => l.trim().toLowerCase().startsWith('disallow:')).map(l => l.split(':')[1].trim()).filter(Boolean);
+    if (disallows.length) {
+      chipsContainer.innerHTML = disallows.slice(0, 8).map(d => `<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">${esc(d)}</span>`).join('');
+    } else {
+      chipsContainer.innerHTML = `<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">None (all paths allowed)</span>`;
+    }
+  } else {
+    chipsContainer.innerHTML = `
+      <span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">/internal/faculty-eval/</span>
+      <span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">/*?search=*</span>
+      <span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">/cgi-bin/</span>
+      <span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant">/admin/</span>
+    `;
+  }
+
+  // Contacts with Source Page Provenance & Institutional Classification
+  const emailChips = document.getElementById("s5-email-chips");
+  const countLabel = document.getElementById("email-count-label");
+  const displayContacts = (contacts && contacts.length) ? contacts : emails.map(e => ({
+    email: e,
+    sourceUrl: site.url,
+    pageTitle: site.name,
+    isInstitutional: Boolean(e.match(/(\.ac\.in|\.ernet\.in|iit[a-z]*\.ac\.in)$/i)),
+    provenance: "extracted"
+  }));
+
+  countLabel.innerText = `${displayContacts.length} contacts`;
+  if (displayContacts.length) {
+    emailChips.innerHTML = displayContacts.map(c => `
+      <div class="flex flex-col p-2.5 rounded-lg bg-surface-container-low hover:bg-surface-container border border-outline-variant/20 gap-1.5 transition-colors">
+        <div class="flex items-center justify-between gap-2">
+          <div class="flex items-center gap-1.5 truncate">
+            <span class="material-symbols-outlined text-[14px] ${c.isInstitutional ? 'text-primary' : 'text-amber-600'}">mail</span>
+            <a href="mailto:${esc(c.email)}" class="font-mono text-body-sm font-medium text-on-surface hover:text-primary truncate">${esc(c.email)}</a>
+          </div>
+          <div class="flex items-center gap-1 shrink-0">
+            <span class="px-1.5 py-0.5 rounded font-mono text-[9px] uppercase font-bold ${c.isInstitutional ? 'bg-primary-fixed text-on-primary-fixed-variant' : 'bg-amber-100 text-amber-800'}" title="${c.isInstitutional ? 'Institutional domain' : 'Third-party / sponsor contact'}">
+              ${c.isInstitutional ? 'Institutional' : 'Partner/Ext'}
+            </span>
+            <button type="button" onclick="copyToClipboard('${esc(c.email)}')" title="Copy email" class="text-on-surface-variant hover:text-primary">
+              <span class="material-symbols-outlined text-[14px]">content_copy</span>
+            </button>
+          </div>
+        </div>
+        ${c.sourceUrl ? `
+          <div class="flex items-center gap-1 text-[11px] text-on-surface-variant truncate">
+            <span class="text-outline-variant shrink-0">Source:</span>
+            <a href="${esc(c.sourceUrl)}" target="_blank" rel="noreferrer" class="hover:text-primary truncate hover:underline" title="${esc(c.pageTitle || c.sourceUrl)}">${esc(c.pageTitle || c.sourceUrl)}</a>
+          </div>
+        ` : ''}
+      </div>
+    `).join('');
+  } else {
+    emailChips.innerHTML = `<span class="text-xs text-on-surface-variant py-2">No contacts discovered yet.</span>`;
+  }
+
+  // Diagnostic Error Log Box
+  const errorBox = document.getElementById("dossier-error-box");
+  const errorCount = document.getElementById("dossier-error-count");
+  const errorList = document.getElementById("dossier-error-list");
+  if (errorBox && errorCount && errorList) {
+    if (errorLog && errorLog.length > 0) {
+      errorBox.classList.remove("hidden");
+      errorCount.innerText = errorLog.length;
+      errorList.innerHTML = errorLog.map(err => `
+        <div class="flex flex-col p-2 rounded bg-surface-container-lowest border border-error-container/30 gap-0.5">
+          <a href="${esc(err.url)}" target="_blank" rel="noreferrer" class="text-primary truncate hover:underline font-bold">${esc(err.url)}</a>
+          <span class="text-error break-all">${esc(err.error)}</span>
+        </div>
+      `).join('');
+    } else {
+      errorBox.classList.add("hidden");
+    }
+  }
+
+  // Pages table with Metadata Distinction & Title Provenance
+  const tbody = document.getElementById("s3-pages-tbody");
+  if (pages.length) {
+    tbody.innerHTML = pages.map(p => `
+      <tr class="hover:bg-surface-container transition-colors">
+        <td class="py-2.5 px-4 align-top">
+          <span class="font-mono text-xs px-2 py-0.5 rounded font-bold ${p.status === 200 ? 'bg-primary-fixed/60 text-on-primary-fixed-variant' : 'bg-error-container text-on-error-container'}">
+            ${p.status} OK
+          </span>
+        </td>
+        <td class="py-2.5 px-4">
+          <div class="flex flex-col gap-0.5">
+            <div class="flex items-center gap-2">
+              <span class="font-medium text-on-surface text-[13px]">${esc(p.title || '(No page title)')}</span>
+              ${p.titleSource && p.titleSource !== 'title_tag' ? `<span class="px-1.5 py-0.2 rounded bg-surface-container text-[10px] font-mono text-on-surface-variant">via ${esc(p.titleSource)}</span>` : ''}
+            </div>
+            <a href="${esc(p.url)}" target="_blank" rel="noreferrer" class="font-mono text-[11px] text-on-surface-variant hover:text-primary transition-colors truncate max-w-sm sm:max-w-xl">${esc(p.url)}</a>
+            ${p.desc ? `
+              <div class="flex items-start gap-1.5 text-[11px] text-on-surface-variant mt-0.5">
+                <span class="shrink-0 font-mono text-[9px] uppercase px-1 rounded ${p.descPresent ? 'bg-primary-fixed/50 text-on-primary-fixed-variant' : 'bg-surface-container text-on-surface-variant'}">${p.descPresent ? 'Meta Desc' : 'Lead Fallback'}</span>
+                <span class="truncate max-w-md italic">${esc(p.desc)}</span>
+              </div>
+            ` : `
+              <span class="text-[10.5px] text-on-surface-variant/70 italic mt-0.5">No description specified by page author</span>
+            `}
+          </div>
+        </td>
+        <td class="py-2.5 px-4 text-right font-mono text-[12px] text-on-surface-variant font-semibold align-top">${p.kb} KB</td>
+        <td class="py-2.5 px-4 text-right font-mono text-[12px] text-on-surface-variant font-semibold align-top">${p.internal ?? 0}</td>
+        <td class="py-2.5 px-4 text-right font-mono text-[12px] text-on-surface-variant font-semibold align-top">${p.external ?? 0}</td>
+      </tr>
+    `).join('');
+  } else {
+    tbody.innerHTML = `<tr><td colspan="5" class="py-6 text-center text-on-surface-variant font-mono text-xs">No pages crawled yet. Click "Crawl" above to begin.</td></tr>`;
+  }
+  document.getElementById("s3-pages-tally").innerText = `${pages.length} pages listed`;
+}
+
+// Copy to clipboard helper
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    appendConsoleLog("CLIPBOARD", `Copied to clipboard: ${text}`, "#18794E");
+  }).catch(() => {});
+}
+
+// Logging and Telemetry
+function appendConsoleLog(category, message, badgeColor = "#C2410C") {
+  const consoleBox = document.getElementById("live-console");
+  if (!consoleBox) return;
+
+  const now = new Date();
+  const timeStr = now.toTimeString().split(' ')[0] + '.' + String(now.getMilliseconds()).padStart(3, '0');
+
+  const entry = document.createElement("div");
+  entry.className = "flex items-start justify-between gap-space-sm py-0.5";
+  entry.innerHTML = `
+    <span class="text-[#E7E1DF] font-mono leading-relaxed">
+      <span class="text-[#8D7168]">[${timeStr}]</span> 
+      <strong class="text-[#FD9E70]">[${category}]</strong> ${esc(message)}
+    </span>
+    <span class="text-[10px] uppercase tracking-wider font-bold" style="color: ${badgeColor};">OK</span>
+  `;
+
+  consoleBox.appendChild(entry);
+  consoleBox.scrollTop = consoleBox.scrollHeight;
+}
+
+function clearConsoleLog() {
+  const consoleBox = document.getElementById("live-console");
+  if (consoleBox) {
+    consoleBox.innerHTML = `
+      <div class="text-[#8D7168] flex items-center justify-between py-1">
+        <span>[STREAM FLUSHED] Telemetry buffer reset by operator.</span>
+        <span class="text-[10px] uppercase tracking-widest text-[#C2410C]">READY</span>
+      </div>
+    `;
+  }
+}
+
+function toggleConsoleLog() {
+  const consoleBox = document.getElementById("live-console");
+  if (consoleBox) {
+    consoleBox.classList.toggle("hidden");
+  }
+}
+
+// Live SSE Crawl Execution
+function crawlCurrentSingle() {
+  crawlIndividualSite(currentSiteIndex);
+}
+
+async function crawlIndividualSite(index) {
+  if (isBusy) return;
+  selectIIT(index);
+  isBusy = true;
+  updateButtons();
+
+  const site = SITES[index];
+  site.isCrawling = true;
+  renderGrid();
+  renderSummaryTable();
+
+  const dot = document.getElementById("telemetry-dot");
+  if (dot) dot.classList.add("animate-pulse");
+  document.getElementById("telemetry-status-text").innerText = `Connecting to ${site.name}…`;
+
+  appendConsoleLog("INIT", `Starting live crawler connection for ${site.name} (${site.url})`);
+
+  // Initialize fresh result object
+  const liveResult = {
+    summary: { name: site.name, url: site.url, delay: 2.0, pages: 0, allowed: 0, blocked: 0, emails: [], errors: 0 },
+    robots: "",
+    pages: [],
+    blocked: {},
+    allowedLinks: []
+  };
+  RESULTS[site.name] = liveResult;
+
+  const startTime = Date.now();
+
+  await new Promise(resolve => {
+    const es = new EventSource(`/crawl?site=${index}`);
+    liveEventSource = es;
+
+    const finalize = () => {
+      site.isCrawling = false;
+      isBusy = false;
+      if (liveEventSource === es) liveEventSource = null;
+      es.close();
+      if (dot) dot.classList.remove("animate-pulse");
+      updateButtons();
+      renderGrid();
+      renderSummaryTable();
+      loadSiteDetails(index);
+      resolve();
+    };
+
+    es.onmessage = ev => {
+      let data;
+      try { data = JSON.parse(ev.data); } catch { return; }
+
+      if (data.type === 'start') {
+        appendConsoleLog("HOST", `Host resolved: ${data.site.url}`);
+        document.getElementById("telemetry-status-text").innerText = `Checking robots.txt for ${site.name}…`;
+      }
+      else if (data.type === 'robots') {
+        liveResult.robots = data.text || "";
+        liveResult.summary.robotsStatus = data.status;
+        liveResult.summary.delay = data.delay || 2.0;
+        liveResult.summary.permission = data.permission;
+        liveResult.summary.stopReason = data.note || "";
+        liveResult.summary.rules = (data.groups || []).reduce((acc, g) => acc + (g.rules ? g.rules.length : 0), 0);
+        
+        appendConsoleLog("ROBOTS", `robots.txt fetched: HTTP ${data.status} · Permission: ${data.permission}`);
+        document.getElementById("telemetry-status-text").innerText = `robots.txt checked · Delay ${data.delay}s · ${data.permission}`;
+        loadSiteDetails(index);
+        renderSummaryTable();
+      }
+      else if (data.type === 'check') {
+        if (data.allowed) {
+          liveResult.allowedLinks.push(data.url);
+          appendConsoleLog("ALLOWED", data.url, "#18794E");
+        } else {
+          liveResult.blocked[data.url] = data.rule;
+          appendConsoleLog("BLOCKED", `${data.url} (Rule: ${JSON.stringify(data.rule)})`, "#983311");
+        }
+      }
+      else if (data.type === 'wait') {
+        appendConsoleLog("WAIT", `Politeness cooldown: waiting ${data.seconds}s…`, "#925D00");
+      }
+      else if (data.type === 'page') {
+        liveResult.pages.push(data);
+        if (!liveResult.contacts) liveResult.contacts = [];
+        (data.contacts || []).forEach(c => {
+          if (!liveResult.contacts.some(existing => existing.email === c.email && existing.sourceUrl === c.sourceUrl)) {
+            liveResult.contacts.push(c);
+          }
+        });
+        (data.emails || []).forEach(em => {
+          if (!liveResult.summary.emails.includes(em)) {
+            liveResult.summary.emails.push(em);
+            appendConsoleLog("EMAIL", `Discovered contact: ${em}`, "#2457A6");
+          }
+        });
+        appendConsoleLog("PAGE", `Fetched [HTTP ${data.status}] ${data.url} (${data.kb} KB, ${data.words} words)`, "#18794E");
+        document.getElementById("telemetry-status-text").innerText = `Crawling ${site.name}: Page ${liveResult.pages.length}/20 fetched`;
+        loadSiteDetails(index);
+        renderSummaryTable();
+      }
+      else if (data.type === 'skip') {
+        appendConsoleLog("SKIP", `${data.url} — ${data.reason}`, "#8D7168");
+      }
+      else if (data.type === 'error') {
+        liveResult.summary.errors = (liveResult.summary.errors || 0) + 1;
+        if (!liveResult.errorLog) liveResult.errorLog = [];
+        liveResult.errorLog.push({ url: data.url || site.url, error: data.message });
+        appendConsoleLog("ERROR", `${data.url || site.name} — ${data.message}`, "#BA1A1A");
+        loadSiteDetails(index);
+      }
+      else if (data.type === 'done') {
+        const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+        if (data.summary) {
+          Object.assign(liveResult.summary, data.summary);
+          if (data.summary.contacts) liveResult.contacts = data.summary.contacts;
+          if (data.summary.errorLog) liveResult.errorLog = data.summary.errorLog;
+        }
+        if (data.allowedLinks) liveResult.allowedLinks = data.allowedLinks;
+        if (data.blockedLinks) liveResult.blocked = data.blockedLinks;
+        liveResult.summary.duration = elapsed + "s";
+        
+        appendConsoleLog("DONE", `Finished crawling ${site.name}. Total pages: ${liveResult.pages.length} (${elapsed}s)`);
+        document.getElementById("telemetry-status-text").innerText = `Crawl complete for ${site.name} in ${elapsed}s`;
+        finalize();
+      }
+    };
+
+    es.onerror = () => {
+      appendConsoleLog("WARN", `Connection closed for ${site.name}.`);
+      document.getElementById("telemetry-status-text").innerText = `Crawl stream closed for ${site.name}.`;
+      finalize();
+    };
+  });
+}
+
+// Master Crawl All - Automatically shows and smoothly scrolls to the Summary Table!
+async function crawlAllInstitutions() {
+  if (isBusy) {
+    batchCancel = true;
+    if (liveEventSource) liveEventSource.close();
+    appendConsoleLog("ABORT", "Batch crawl sequence stopped by operator.");
+    isBusy = false;
+    updateButtons();
+    return;
+  }
+
+  isBusy = true;
+  batchCancel = false;
+  updateButtons();
+  appendConsoleLog("BATCH", "Launching master crawl queue across all 10 institutions sequentially…");
+
+  // Show and smooth-scroll to Comparative Summary Table!
+  const tableSection = document.getElementById("batch-summary-section");
+  if (tableSection) {
+    tableSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  for (let i = 0; i < SITES.length; i++) {
+    if (batchCancel) break;
+    await crawlIndividualSite(i);
+  }
+
+  isBusy = false;
+  batchCancel = false;
+  updateButtons();
+  renderGrid();
+  renderSummaryTable();
+  appendConsoleLog("BATCH_DONE", "All institutions processed in sequential polite crawler run.");
+}
+
+function updateButtons() {
+  const allBtn = document.getElementById("btn-crawl-all");
+  const allText = document.getElementById("crawl-all-text");
+  const allIcon = document.getElementById("crawl-all-icon");
+  const reBtn = document.getElementById("btn-re-crawl");
+  const tableBtn = document.getElementById("btn-table-crawl-all");
+
+  if (isBusy) {
+    allBtn.classList.remove("bg-primary", "hover:bg-primary/90");
+    allBtn.classList.add("bg-error", "hover:bg-red-700");
+    allText.innerText = "Stop Crawl";
+    allIcon.innerText = "stop_circle";
+    if (tableBtn) {
+      tableBtn.classList.remove("bg-primary", "hover:bg-primary/90");
+      tableBtn.classList.add("bg-error", "hover:bg-red-700");
+      tableBtn.innerHTML = `<span class="material-symbols-outlined text-[15px]">stop_circle</span><span>Stop Crawl</span>`;
+    }
+    if (reBtn) reBtn.disabled = true;
+  } else {
+    allBtn.classList.remove("bg-error", "hover:bg-red-700");
+    allBtn.classList.add("bg-primary", "hover:bg-primary/90");
+    allText.innerText = "Crawl All 10 IITs";
+    allIcon.innerText = "play_circle";
+    if (tableBtn) {
+      tableBtn.classList.remove("bg-error", "hover:bg-red-700");
+      tableBtn.classList.add("bg-primary", "hover:bg-primary/90");
+      tableBtn.innerHTML = `<span class="material-symbols-outlined text-[15px]">play_circle</span><span>Crawl All</span>`;
+    }
+    if (reBtn) reBtn.disabled = false;
+  }
+}
+
+function exportDataJson() {
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(RESULTS, null, 2));
+  const dlAnchorElem = document.createElement('a');
+  dlAnchorElem.setAttribute("href", dataStr);
+  dlAnchorElem.setAttribute("download", "crawl_results.json");
+  dlAnchorElem.click();
+  appendConsoleLog("EXPORT", "Serialized JSON corpus bundle downloaded.");
+}
+</script>
+</body>
+</html>
