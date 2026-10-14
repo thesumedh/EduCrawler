@@ -7,6 +7,8 @@
 
 An academic Information Retrieval (IR) web crawler and institutional intelligence system designed to politely index, verify, and organize academic data from the official websites of India's **10 Premier IITs**.
 
+<img width="1333" height="856" alt="image" src="https://github.com/user-attachments/assets/8aeaf91e-a2ed-4b57-8df5-0186a93b0a19" />
+
 ---
 
 ## 🌟 Key Features
