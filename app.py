@@ -23,13 +23,17 @@ except Exception:
 # Strictly enforce certificate verification and hostname checking (no unverified fallback)
 _SSL_CTX.check_hostname = True
 _SSL_CTX.verify_mode = ssl.CERT_REQUIRED
+# Enable ALPN (HTTP/1.1) and post-handshake-auth to match modern browser TLS ClientHello,
+# preventing Cloudflare WAF bot mitigation challenges on institutional domains (e.g. IIT Gandhinagar)
+_SSL_CTX.set_alpn_protocols(["http/1.1"])
+if hasattr(_SSL_CTX, "post_handshake_auth"):
+    _SSL_CTX.post_handshake_auth = True
 
 # ── Crawler configuration ──────────────────────────────────────────────────────
-# Modern university firewalls (e.g. IIT Bombay) require a standard browser token
+# Modern university firewalls and WAFs (e.g. IIT Bombay, IIT Gandhinagar) require standard browser headers
 AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 "
-    "(compatible; IITStudentCrawler/2.0; educational project; polite crawl)"
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 MAX_PAGES = 20                # Maximum HTML pages per institution (raised from 4)
 DEFAULT_DELAY = 2.0           # Minimum delay between page requests (seconds)
@@ -463,9 +467,10 @@ def fetch(url: str):
     """
     headers = {
         "User-Agent": AGENT,
-        "Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         "Accept-Encoding": "identity",
+        "Upgrade-Insecure-Requests": "1",
     }
     try:
         p = urlsplit(url)

@@ -3,23 +3,26 @@
     "summary": {
       "name": "IIT Gandhinagar",
       "url": "https://iitgn.ac.in",
-      "robotsStatus": null,
-      "permission": "blocked",
+      "resolvedUrl": "https://iitgn.ac.in/",
+      "robotsStatus": 404,
+      "permission": "allowed",
+      "robotsPolicy": "rfc9309_no_restrictions",
       "rules": 0,
       "delay": 2.0,
-      "pages": 0,
-      "allowed": 0,
+      "pages": 20,
+      "allowed": 257,
       "blocked": 0,
       "emails": [],
-      "errors": 1,
-      "resolvedUrl": null,
+      "contacts": [],
+      "errors": 0,
+      "errorLog": [],
       "pillars": {
         "provenance": {
           "architecture": "3-Pillar Hybrid Dossier",
           "curatedBaseline": true,
           "verificationDate": "2026-10-14",
-          "livePagesDiscovered": 0,
-          "status": "verified_catalog_baseline"
+          "livePagesDiscovered": 3,
+          "status": "verified_and_live_augmented"
         },
         "departments": {
           "directoryUrl": "https://iitgn.ac.in/academics/departments",
@@ -38,7 +41,14 @@
           "provenance": "curated_catalog",
           "verificationDate": "2026-10-14",
           "status": "verified_portal",
-          "discoveredPages": []
+          "discoveredPages": [
+            {
+              "url": "https://iitgn.ac.in/departmentlist",
+              "title": "IIT Gandhinagar | Events",
+              "provenance": "live_crawl_extracted",
+              "status": "discovered_page"
+            }
+          ]
         },
         "admissions": {
           "portalUrl": "https://iitgn.ac.in/admissions",
@@ -52,7 +62,14 @@
           "provenance": "curated_catalog",
           "verificationDate": "2026-10-14",
           "status": "verified_portal",
-          "discoveredPages": []
+          "discoveredPages": [
+            {
+              "url": "https://iitgn.ac.in/admissions",
+              "title": "IIT Gandhinagar | Admissions",
+              "provenance": "live_crawl_extracted",
+              "status": "discovered_page"
+            }
+          ]
         },
         "placements": {
           "cellName": "Career Development Services (CDS)",
@@ -62,20 +79,1114 @@
           "provenance": "curated_catalog",
           "verificationDate": "2026-10-14",
           "status": "verified_portal",
-          "discoveredPages": []
+          "discoveredPages": [
+            {
+              "url": "https://iitgn.ac.in/careers",
+              "title": "IIT Gandhinagar | careers",
+              "provenance": "live_crawl_extracted",
+              "status": "discovered_page"
+            }
+          ]
         }
       }
     },
     "robots": "",
-    "pages": [],
+    "sitemaps": [],
+    "pages": [
+      {
+        "url": "https://iitgn.ac.in/",
+        "canonicalUrl": "https://iitgn.ac.in/",
+        "status": 200,
+        "ms": 375,
+        "kb": 91.7,
+        "title": "IIT Gandhinagar | Home",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h3",
+            "Research"
+          ],
+          [
+            "h3",
+            "Events"
+          ],
+          [
+            "h3",
+            "News"
+          ],
+          [
+            "h2",
+            "Thinking Across Boundaries"
+          ],
+          [
+            "h1",
+            "India Tests a 5.56-km Free-Space Quantum Key Distribution Link"
+          ],
+          [
+            "h1",
+            "Structural features in a 2-dimensional carbon-based material could boost green hydrogen production"
+          ],
+          [
+            "h1",
+            "How a plant’s refusal to self-pollinate could help India grow more of its own cooking oil"
+          ],
+          [
+            "h1",
+            "Changing the antibiotic playbook to catch an ESKAPE artist"
+          ],
+          [
+            "h1",
+            "Faculty Development Program for ASEAN and the Global South"
+          ],
+          [
+            "h2",
+            "Academics"
+          ],
+          [
+            "h3",
+            "Academic Affairs"
+          ],
+          [
+            "h3",
+            "Admissions"
+          ],
+          [
+            "h3",
+            "Departments"
+          ],
+          [
+            "h3",
+            "Research Highlights"
+          ],
+          [
+            "h3",
+            "Facilities"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 774,
+        "internal": 41,
+        "external": 33,
+        "allowedCount": 41,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/aac",
+        "canonicalUrl": "https://iitgn.ac.in/aac",
+        "status": 200,
+        "ms": 608,
+        "kb": 51.6,
+        "title": "IIT Gandhinagar | Academic Advisory Council",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Academic Advisory Council"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 200,
+        "internal": 50,
+        "external": 19,
+        "allowedCount": 50,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about",
+        "canonicalUrl": "https://iitgn.ac.in/about",
+        "status": 200,
+        "ms": 5312,
+        "kb": 60.4,
+        "title": "IIT Gandhinagar | About",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h3",
+            "Welcome"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 922,
+        "internal": 39,
+        "external": 20,
+        "allowedCount": 39,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/academic-officials",
+        "canonicalUrl": "https://iitgn.ac.in/about/academic-officials",
+        "status": 200,
+        "ms": 937,
+        "kb": 82.8,
+        "title": "IIT Gandhinagar | Academic Officials",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Academic Officials"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 1086,
+        "internal": 129,
+        "external": 19,
+        "allowedCount": 129,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/admin-bog",
+        "canonicalUrl": "https://iitgn.ac.in/about/admin-bog",
+        "status": 200,
+        "ms": 3062,
+        "kb": 52.9,
+        "title": "IIT Gandhinagar | Board of Governors",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Board of Governors"
+          ],
+          [
+            "h2",
+            "Chairman"
+          ],
+          [
+            "h2",
+            "Members"
+          ],
+          [
+            "h2",
+            "State Government Nominees"
+          ],
+          [
+            "h2",
+            "Senate Nominees"
+          ],
+          [
+            "h2",
+            "Ex-officio"
+          ],
+          [
+            "h2",
+            "Invitee"
+          ],
+          [
+            "h2",
+            "Secretary"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 225,
+        "internal": 44,
+        "external": 19,
+        "allowedCount": 44,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/bwc",
+        "canonicalUrl": "https://iitgn.ac.in/about/bwc",
+        "status": 200,
+        "ms": 1343,
+        "kb": 50.3,
+        "title": "IIT Gandhinagar | Building and Works Committee",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Building and Works Committee"
+          ],
+          [
+            "h2",
+            "Chairman"
+          ],
+          [
+            "h2",
+            "Members"
+          ],
+          [
+            "h2",
+            "Invitee"
+          ],
+          [
+            "h2",
+            "Secretary"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 168,
+        "internal": 39,
+        "external": 19,
+        "allowedCount": 39,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/director",
+        "canonicalUrl": "https://iitgn.ac.in/about/director",
+        "status": 200,
+        "ms": 780,
+        "kb": 49.6,
+        "title": "IIT Gandhinagar | Director",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Director"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 312,
+        "internal": 38,
+        "external": 19,
+        "allowedCount": 38,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/finance-committee",
+        "canonicalUrl": "https://iitgn.ac.in/about/finance-committee",
+        "status": 200,
+        "ms": 1327,
+        "kb": 50.0,
+        "title": "IIT Gandhinagar | Finance Committee",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Finance Committee"
+          ],
+          [
+            "h2",
+            "Chairman"
+          ],
+          [
+            "h2",
+            "Members"
+          ],
+          [
+            "h2",
+            "Invitee"
+          ],
+          [
+            "h2",
+            "Secretary"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 148,
+        "internal": 40,
+        "external": 19,
+        "allowedCount": 40,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/about/founding-director",
+        "canonicalUrl": "https://iitgn.ac.in/about/founding-director",
+        "status": 200,
+        "ms": 343,
+        "kb": 51.3,
+        "title": "IIT Gandhinagar | Founding Director",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Founding Director"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 527,
+        "internal": 37,
+        "external": 23,
+        "allowedCount": 37,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/academics",
+        "canonicalUrl": "https://iitgn.ac.in/academics",
+        "status": 200,
+        "ms": 3421,
+        "kb": 83.6,
+        "title": "IIT Gandhinagar | Academics",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Academics at IITGN"
+          ],
+          [
+            "h2",
+            "Programs"
+          ],
+          [
+            "h2",
+            "Departments"
+          ],
+          [
+            "h2",
+            "Additional Learning Opportunities"
+          ],
+          [
+            "h2",
+            "Minors Programme"
+          ],
+          [
+            "h2",
+            "Honours Programme"
+          ],
+          [
+            "h2",
+            "Dual Degree Programme"
+          ],
+          [
+            "h2",
+            "Dual Major B.Tech"
+          ],
+          [
+            "h2",
+            "Branch Change"
+          ],
+          [
+            "h2",
+            "Resources"
+          ],
+          [
+            "h2",
+            "Student Recognitions"
+          ],
+          [
+            "h2",
+            "Downloads"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 856,
+        "internal": 56,
+        "external": 42,
+        "allowedCount": 56,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/academics/calendar/acadcal-2026-27",
+        "canonicalUrl": "https://iitgn.ac.in/academics/calendar/acadcal-2026-27",
+        "status": 200,
+        "ms": 3483,
+        "kb": 54.3,
+        "title": "IIT Gandhinagar | Academic Calendar 2026-27",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Academic Calendar 2026-27"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 462,
+        "internal": 38,
+        "external": 19,
+        "allowedCount": 38,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/academics/courses",
+        "canonicalUrl": "https://iitgn.ac.in/academics/courses",
+        "status": 200,
+        "ms": 5391,
+        "kb": 1953.1,
+        "title": "IIT Gandhinagar | Course List",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Courses"
+          ],
+          [
+            "h1",
+            "Introduction to Life Sciences: Fundamentals of Life [BE 101]"
+          ],
+          [
+            "h1",
+            "Molecular Genetics [BE 301]"
+          ],
+          [
+            "h1",
+            "Bionanotechnology – Principles and Applications [BE 303]"
+          ],
+          [
+            "h1",
+            "Introduction to Biomedical Engineering [BE 304]"
+          ],
+          [
+            "h1",
+            "Origins of Species [BE 305]"
+          ],
+          [
+            "h1",
+            "Methods in Biology [BE 401]"
+          ],
+          [
+            "h1",
+            "Stem Cells: Science and Applications [BE 403]"
+          ],
+          [
+            "h1",
+            "Genetic Engineering – Principles and Applications [BE 404]"
+          ],
+          [
+            "h1",
+            "Introduction to Plant Biotechnology [BE 405]"
+          ],
+          [
+            "h1",
+            "Systems Biology [BE 406]"
+          ],
+          [
+            "h1",
+            "Introduction to Cell Biology [BE 407]"
+          ],
+          [
+            "h1",
+            "Applied Biological Engineering [BE 601]"
+          ],
+          [
+            "h1",
+            "Biophysical Techniques [BE 603]"
+          ],
+          [
+            "h1",
+            "Cellular signaling [BE 605]"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 80487,
+        "internal": 29,
+        "external": 17,
+        "allowedCount": 29,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/admissions",
+        "canonicalUrl": "https://iitgn.ac.in/admissions",
+        "status": 200,
+        "ms": 4375,
+        "kb": 64.4,
+        "title": "IIT Gandhinagar | Admissions",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Admissions"
+          ],
+          [
+            "h2",
+            "Programs"
+          ],
+          [
+            "h1",
+            "Students First"
+          ],
+          [
+            "h2",
+            "Unique innovations at IIT Gandhinagar"
+          ],
+          [
+            "h2",
+            "Achievements"
+          ],
+          [
+            "h2",
+            "Academic Structure"
+          ],
+          [
+            "h1",
+            "Student Life"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 1032,
+        "internal": 57,
+        "external": 24,
+        "allowedCount": 57,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/alc",
+        "canonicalUrl": "https://iitgn.ac.in/alc",
+        "status": 200,
+        "ms": 1422,
+        "kb": 51.9,
+        "title": "IIT Gandhinagar | Administration Leadership Conclave",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Administration Leadership Conclave"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 207,
+        "internal": 51,
+        "external": 19,
+        "allowedCount": 51,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/careers",
+        "canonicalUrl": "https://iitgn.ac.in/careers",
+        "status": 200,
+        "ms": 1875,
+        "kb": 59.9,
+        "title": "IIT Gandhinagar | careers",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Careers at IIT Gandhinagar"
+          ],
+          [
+            "h2",
+            "Faculty"
+          ],
+          [
+            "h3",
+            "Disciplines"
+          ],
+          [
+            "h3",
+            "Interdisciplinary Centers"
+          ],
+          [
+            "h2",
+            "Staff"
+          ],
+          [
+            "h2",
+            "Students"
+          ],
+          [
+            "h2",
+            "Life in Ahmedabad/Gandhinagar"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 363,
+        "internal": 44,
+        "external": 19,
+        "allowedCount": 44,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/contact",
+        "canonicalUrl": "https://iitgn.ac.in/contact",
+        "status": 200,
+        "ms": 327,
+        "kb": 65.0,
+        "title": "IIT Gandhinagar | Contact",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Contact Us"
+          ],
+          [
+            "h1",
+            "On the Banks of the Sabarmati"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 244,
+        "internal": 38,
+        "external": 21,
+        "allowedCount": 38,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/departmentlist",
+        "canonicalUrl": "https://iitgn.ac.in/departmentlist",
+        "status": 200,
+        "ms": 1875,
+        "kb": 58.8,
+        "title": "IIT Gandhinagar | Events",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Departments & Centres"
+          ],
+          [
+            "h2",
+            "Departments"
+          ],
+          [
+            "h2",
+            "Centres"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 128,
+        "internal": 37,
+        "external": 40,
+        "allowedCount": 37,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/eventspage",
+        "canonicalUrl": "https://iitgn.ac.in/eventspage",
+        "status": 200,
+        "ms": 2985,
+        "kb": 55.4,
+        "title": "IIT Gandhinagar | Events",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Upcoming Events"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 162,
+        "internal": 40,
+        "external": 23,
+        "allowedCount": 40,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/faculty",
+        "canonicalUrl": "https://iitgn.ac.in/faculty",
+        "status": 200,
+        "ms": 1546,
+        "kb": 73.8,
+        "title": "IIT Gandhinagar | Faculty",
+        "titleSource": "title_tag",
+        "desc": "IITGN has attracted outstanding faculty members from the best educational institutions around the world. Their diverse training experiences, and expertise makes IITGN an institution of learning like no other in India.",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h1",
+            "Faculty at IITGN"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 168,
+        "internal": 58,
+        "external": 19,
+        "allowedCount": 58,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitgn.ac.in/giving",
+        "canonicalUrl": "https://iitgn.ac.in/giving",
+        "status": 200,
+        "ms": 312,
+        "kb": 58.1,
+        "title": "IIT Gandhinagar | Giving",
+        "titleSource": "title_tag",
+        "desc": "The official website of the Indian Institute of Technology, Gandhinagar",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Meet our Benefactors"
+          ],
+          [
+            "h3",
+            "Sabarmati Council"
+          ],
+          [
+            "h3",
+            "Institute Council"
+          ],
+          [
+            "h3",
+            "Benefactor Circle"
+          ],
+          [
+            "h2",
+            "Impact Stories"
+          ],
+          [
+            "h2",
+            "Scholarships and Global Experience"
+          ],
+          [
+            "h2",
+            "Excellence in Research"
+          ],
+          [
+            "h2",
+            "Community Outreach"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 144,
+        "internal": 44,
+        "external": 20,
+        "allowedCount": 44,
+        "blockedCount": 0
+      }
+    ],
     "blocked": {},
+    "allowedLinks": [
+      "https://iitgn.ac.in/",
+      "https://iitgn.ac.in/aac",
+      "https://iitgn.ac.in/aac/13-thirteen",
+      "https://iitgn.ac.in/aac/eighth",
+      "https://iitgn.ac.in/aac/eleventh",
+      "https://iitgn.ac.in/aac/fifth",
+      "https://iitgn.ac.in/aac/first",
+      "https://iitgn.ac.in/aac/fourth",
+      "https://iitgn.ac.in/aac/ninth",
+      "https://iitgn.ac.in/aac/second",
+      "https://iitgn.ac.in/aac/seventh",
+      "https://iitgn.ac.in/aac/sixth",
+      "https://iitgn.ac.in/aac/tenth",
+      "https://iitgn.ac.in/aac/third",
+      "https://iitgn.ac.in/aac/twelveth",
+      "https://iitgn.ac.in/about",
+      "https://iitgn.ac.in/about/academic-officials",
+      "https://iitgn.ac.in/about/admin-bog",
+      "https://iitgn.ac.in/about/bog-summary",
+      "https://iitgn.ac.in/about/bwc",
+      "https://iitgn.ac.in/about/chairman-bog",
+      "https://iitgn.ac.in/about/director",
+      "https://iitgn.ac.in/about/finance-committee",
+      "https://iitgn.ac.in/about/founding-director",
+      "https://iitgn.ac.in/academics",
+      "https://iitgn.ac.in/academics/btech",
+      "https://iitgn.ac.in/academics/calendar",
+      "https://iitgn.ac.in/academics/calendar/acadcal-2025-26",
+      "https://iitgn.ac.in/academics/calendar/acadcal-2026-27",
+      "https://iitgn.ac.in/academics/courses",
+      "https://iitgn.ac.in/academics/lectures",
+      "https://iitgn.ac.in/academics/ma",
+      "https://iitgn.ac.in/academics/msc",
+      "https://iitgn.ac.in/academics/mtech",
+      "https://iitgn.ac.in/academics/nondegree",
+      "https://iitgn.ac.in/academics/ombudsman",
+      "https://iitgn.ac.in/academics/online_courses",
+      "https://iitgn.ac.in/academics/phd",
+      "https://iitgn.ac.in/academics/short_courses",
+      "https://iitgn.ac.in/admissions",
+      "https://iitgn.ac.in/admissions/apply",
+      "https://iitgn.ac.in/admissions/btech",
+      "https://iitgn.ac.in/admissions/btech-olympiad",
+      "https://iitgn.ac.in/admissions/eamtech",
+      "https://iitgn.ac.in/admissions/ma",
+      "https://iitgn.ac.in/admissions/msc",
+      "https://iitgn.ac.in/admissions/mtech",
+      "https://iitgn.ac.in/admissions/nondegree",
+      "https://iitgn.ac.in/admissions/phd",
+      "https://iitgn.ac.in/admissions/phd-cdp",
+      "https://iitgn.ac.in/admissions/phd-pl",
+      "https://iitgn.ac.in/admissions/results",
+      "https://iitgn.ac.in/admissions/sephd",
+      "https://iitgn.ac.in/admissions/specialdrive",
+      "https://iitgn.ac.in/admissions/visiting-students-programme",
+      "https://iitgn.ac.in/admissions/visiting-students-research-engagement-programme",
+      "https://iitgn.ac.in/admissions/visvesvaraya-phd",
+      "https://iitgn.ac.in/admissions/wsmtech",
+      "https://iitgn.ac.in/alc",
+      "https://iitgn.ac.in/alc/eighth",
+      "https://iitgn.ac.in/alc/eleventh",
+      "https://iitgn.ac.in/alc/fifth",
+      "https://iitgn.ac.in/alc/first",
+      "https://iitgn.ac.in/alc/fourteenth",
+      "https://iitgn.ac.in/alc/fourth",
+      "https://iitgn.ac.in/alc/ninth",
+      "https://iitgn.ac.in/alc/second",
+      "https://iitgn.ac.in/alc/seventh",
+      "https://iitgn.ac.in/alc/sixth",
+      "https://iitgn.ac.in/alc/tenth",
+      "https://iitgn.ac.in/alc/third",
+      "https://iitgn.ac.in/alc/thirteen",
+      "https://iitgn.ac.in/alc/twelveth",
+      "https://iitgn.ac.in/assets/pdfs/First_Statutes_IIT_Gandhinagar.pdf",
+      "https://iitgn.ac.in/assets/pdfs/IIT_ACT_1961_IITGN.pdf",
+      "https://iitgn.ac.in/assets/pdfs/World_Literature_%20Sri%20Aurobindo.pdf",
+      "https://iitgn.ac.in/assets/pdfs/academics/Certificate-Regarding-CPI-to-Percentage-Conversion.pdf",
+      "https://iitgn.ac.in/assets/pdfs/academics/Issuance_of_Digital_Degrees_and_Transcripts.pdf",
+      "https://iitgn.ac.in/assets/pdfs/academics/Medium_of_Instruction_Certificate.pdf",
+      "https://iitgn.ac.in/assets/pdfs/academics/Non_Issuance_of_Migration_Certificate.pdf",
+      "https://iitgn.ac.in/assets/pdfs/missionvision.pdf",
+      "https://iitgn.ac.in/careers",
+      "https://iitgn.ac.in/careers/apply",
+      "https://iitgn.ac.in/careers/contract-positions",
+      "https://iitgn.ac.in/careers/faculty",
+      "https://iitgn.ac.in/careers/non-academic-staff",
+      "https://iitgn.ac.in/careers/ocep",
+      "https://iitgn.ac.in/careers/pop",
+      "https://iitgn.ac.in/careers/staff",
+      "https://iitgn.ac.in/cdn-cgi/l/email-protection",
+      "https://iitgn.ac.in/contact",
+      "https://iitgn.ac.in/convocation/",
+      "https://iitgn.ac.in/departmentlist",
+      "https://iitgn.ac.in/eventspage",
+      "https://iitgn.ac.in/faculty",
+      "https://iitgn.ac.in/faculty/all",
+      "https://iitgn.ac.in/faculty/bioe",
+      "https://iitgn.ac.in/faculty/bioe/fac-ashutosh",
+      "https://iitgn.ac.in/faculty/bioe/fac-dhiraj",
+      "https://iitgn.ac.in/faculty/bioe/fac-karla",
+      "https://iitgn.ac.in/faculty/bioe/fac-pratik",
+      "https://iitgn.ac.in/faculty/bioe/fac-sharad",
+      "https://iitgn.ac.in/faculty/bioe/fac-sharmistha",
+      "https://iitgn.ac.in/faculty/chairs",
+      "https://iitgn.ac.in/faculty/chemical",
+      "https://iitgn.ac.in/faculty/chemical/fac-abinaya",
+      "https://iitgn.ac.in/faculty/chemical/fac-hari",
+      "https://iitgn.ac.in/faculty/chemical/fac-kabeer",
+      "https://iitgn.ac.in/faculty/chemical/fac-karthik",
+      "https://iitgn.ac.in/faculty/chemical/fac-kaustubh",
+      "https://iitgn.ac.in/faculty/chemical/fac-mithun",
+      "https://iitgn.ac.in/faculty/chemical/fac-nitin",
+      "https://iitgn.ac.in/faculty/chemical/fac-prachi",
+      "https://iitgn.ac.in/faculty/chemical/fac-pratyush",
+      "https://iitgn.ac.in/faculty/chemical/fac-sameer",
+      "https://iitgn.ac.in/faculty/chemistry",
+      "https://iitgn.ac.in/faculty/chemistry/fac-bhaskar",
+      "https://iitgn.ac.in/faculty/chemistry/fac-chandrakumar",
+      "https://iitgn.ac.in/faculty/chemistry/fac-sivapriya",
+      "https://iitgn.ac.in/faculty/chemistry/fac-sriram",
+      "https://iitgn.ac.in/faculty/chemistry/fac-sudhanshu",
+      "https://iitgn.ac.in/faculty/civil",
+      "https://iitgn.ac.in/faculty/civil/fac-amit",
+      "https://iitgn.ac.in/faculty/civil/fac-dhiman",
+      "https://iitgn.ac.in/faculty/civil/fac-gaurav",
+      "https://iitgn.ac.in/faculty/civil/fac-krishna-siva-teja",
+      "https://iitgn.ac.in/faculty/civil/fac-manish",
+      "https://iitgn.ac.in/faculty/civil/fac-sameer",
+      "https://iitgn.ac.in/faculty/civil/fac-sushobhan",
+      "https://iitgn.ac.in/faculty/civil/fac-vimal",
+      "https://iitgn.ac.in/faculty/cl",
+      "https://iitgn.ac.in/faculty/cl/manish",
+      "https://iitgn.ac.in/faculty/cogs",
+      "https://iitgn.ac.in/faculty/cogs/fac-krishna",
+      "https://iitgn.ac.in/faculty/cogs/fac-leslee",
+      "https://iitgn.ac.in/faculty/cogs/fac-meera",
+      "https://iitgn.ac.in/faculty/cse",
+      "https://iitgn.ac.in/faculty/cse/fac-jyothi",
+      "https://iitgn.ac.in/faculty/cse/fac-krishna",
+      "https://iitgn.ac.in/faculty/cse/fac-mayank",
+      "https://iitgn.ac.in/faculty/cse/fac-nipun",
+      "https://iitgn.ac.in/faculty/cse/fac-rajat-moona",
+      "https://iitgn.ac.in/faculty/cse/fac-sameer",
+      "https://iitgn.ac.in/faculty/cse/fac-shanmuganathan",
+      "https://iitgn.ac.in/faculty/cse/fac-shouvick",
+      "https://iitgn.ac.in/faculty/cse/fac-yogesh",
+      "https://iitgn.ac.in/faculty/cse/manoj",
+      "https://iitgn.ac.in/faculty/design",
+      "https://iitgn.ac.in/faculty/design/fac-praveen",
+      "https://iitgn.ac.in/faculty/dhp",
+      "https://iitgn.ac.in/faculty/earths",
+      "https://iitgn.ac.in/faculty/earths/fac-cnpandey",
+      "https://iitgn.ac.in/faculty/earths/fac-pankaj",
+      "https://iitgn.ac.in/faculty/earths/fac-utsav",
+      "https://iitgn.ac.in/faculty/earths/fac-vikrant",
+      "https://iitgn.ac.in/faculty/ee",
+      "https://iitgn.ac.in/faculty/ee/fac-himanshu",
+      "https://iitgn.ac.in/faculty/ee/fac-madhav",
+      "https://iitgn.ac.in/faculty/ee/fac-naran",
+      "https://iitgn.ac.in/faculty/ee/fac-nihar",
+      "https://iitgn.ac.in/faculty/ee/fac-nithin",
+      "https://iitgn.ac.in/faculty/ee/fac-pallavi",
+      "https://iitgn.ac.in/faculty/ee/fac-ragavan",
+      "https://iitgn.ac.in/faculty/ee/fac-ravi",
+      "https://iitgn.ac.in/faculty/ee/fac-uttama",
+      "https://iitgn.ac.in/faculty/former",
+      "https://iitgn.ac.in/faculty/guestprof",
+      "https://iitgn.ac.in/faculty/hss",
+      "https://iitgn.ac.in/faculty/hss/fac-ambika",
+      "https://iitgn.ac.in/faculty/hss/fac-arka",
+      "https://iitgn.ac.in/faculty/hss/fac-cnpandey",
+      "https://iitgn.ac.in/faculty/hss/fac-jaison",
+      "https://iitgn.ac.in/faculty/hss/fac-malay",
+      "https://iitgn.ac.in/faculty/hss/fac-mansi",
+      "https://iitgn.ac.in/faculty/hss/fac-sameer",
+      "https://iitgn.ac.in/faculty/hss/fac-sharada",
+      "https://iitgn.ac.in/faculty/hss/fac-sharmita",
+      "https://iitgn.ac.in/faculty/hss/fac-v_n_prabhakar",
+      "https://iitgn.ac.in/faculty/maritime",
+      "https://iitgn.ac.in/faculty/maritime/s-chandrasekaran",
+      "https://iitgn.ac.in/faculty/maths",
+      "https://iitgn.ac.in/faculty/maths/fac-chetan",
+      "https://iitgn.ac.in/faculty/maths/fac-indranath",
+      "https://iitgn.ac.in/faculty/maths/fac-sanjay",
+      "https://iitgn.ac.in/faculty/me",
+      "https://iitgn.ac.in/faculty/me/fac-atul",
+      "https://iitgn.ac.in/faculty/me/fac-dilip",
+      "https://iitgn.ac.in/faculty/me/fac-harini",
+      "https://iitgn.ac.in/faculty/me/fac-harmeet",
+      "https://iitgn.ac.in/faculty/me/fac-madhu",
+      "https://iitgn.ac.in/faculty/me/fac-shubhangi",
+      "https://iitgn.ac.in/faculty/me/fac-soumyadip",
+      "https://iitgn.ac.in/faculty/me/fac-uddipta",
+      "https://iitgn.ac.in/faculty/me/fac-vineet",
+      "https://iitgn.ac.in/faculty/me/fac-vinod",
+      "https://iitgn.ac.in/faculty/mse",
+      "https://iitgn.ac.in/faculty/mse/fac-abhay",
+      "https://iitgn.ac.in/faculty/mse/fac-emila",
+      "https://iitgn.ac.in/faculty/mse/fac-raghavan",
+      "https://iitgn.ac.in/faculty/mse/fac-spmehrotra",
+      "https://iitgn.ac.in/faculty/mse/fac-superb",
+      "https://iitgn.ac.in/faculty/phy",
+      "https://iitgn.ac.in/faculty/phy/fac-bharadwaj",
+      "https://iitgn.ac.in/faculty/phy/fac-krishna",
+      "https://iitgn.ac.in/faculty/phy/fac-krista",
+      "https://iitgn.ac.in/faculty/phy/fac-naveen",
+      "https://iitgn.ac.in/faculty/phy/fac-rupak",
+      "https://iitgn.ac.in/faculty/phy/fac-vinod",
+      "https://iitgn.ac.in/giving",
+      "https://iitgn.ac.in/giving/benefactor-circle",
+      "https://iitgn.ac.in/giving/giving-faq",
+      "https://iitgn.ac.in/giving/impact_stories",
+      "https://iitgn.ac.in/giving/institute_council",
+      "https://iitgn.ac.in/giving/naming",
+      "https://iitgn.ac.in/giving/priorities",
+      "https://iitgn.ac.in/giving/sabarmati_council",
+      "https://iitgn.ac.in/hi",
+      "https://iitgn.ac.in/hi/aac",
+      "https://iitgn.ac.in/hi/about",
+      "https://iitgn.ac.in/hi/about/academic-officials",
+      "https://iitgn.ac.in/hi/about/admin-bog",
+      "https://iitgn.ac.in/hi/about/bwc",
+      "https://iitgn.ac.in/hi/about/director",
+      "https://iitgn.ac.in/hi/about/finance-committee",
+      "https://iitgn.ac.in/hi/about/founding-director",
+      "https://iitgn.ac.in/hi/academics",
+      "https://iitgn.ac.in/hi/academics/calendar/acadcal-2026-27",
+      "https://iitgn.ac.in/hi/academics/courses",
+      "https://iitgn.ac.in/hi/admissions",
+      "https://iitgn.ac.in/hi/alc",
+      "https://iitgn.ac.in/hi/careers",
+      "https://iitgn.ac.in/hi/contact",
+      "https://iitgn.ac.in/hi/departmentlist",
+      "https://iitgn.ac.in/hi/eventspage",
+      "https://iitgn.ac.in/hi/faculty",
+      "https://iitgn.ac.in/hi/giving",
+      "https://iitgn.ac.in/holiday/2026",
+      "https://iitgn.ac.in/icc",
+      "https://iitgn.ac.in/medicalcenter",
+      "https://iitgn.ac.in/news_announcement",
+      "https://iitgn.ac.in/newsletterlist",
+      "https://iitgn.ac.in/people/student_alumni",
+      "https://iitgn.ac.in/people/students",
+      "https://iitgn.ac.in/reportlist",
+      "https://iitgn.ac.in/research",
+      "https://iitgn.ac.in/research/facilities",
+      "https://iitgn.ac.in/rti",
+      "https://iitgn.ac.in/staff",
+      "https://iitgn.ac.in/student/lifeoncampus/",
+      "https://iitgn.ac.in/students",
+      "https://iitgn.ac.in/students/awards",
+      "https://iitgn.ac.in/students/deanslist",
+      "https://iitgn.ac.in/students/scholarships",
+      "https://iitgn.ac.in/subscribe",
+      "https://iitgn.ac.in/tender",
+      "https://www.iitgn.ac.in/prospective-students/",
+      "https://www.iitgn.ac.in/student/lifeoncampus/"
+    ],
+    "contacts": [],
+    "errorLog": [],
     "pillars": {
       "provenance": {
         "architecture": "3-Pillar Hybrid Dossier",
         "curatedBaseline": true,
         "verificationDate": "2026-10-14",
-        "livePagesDiscovered": 0,
-        "status": "verified_catalog_baseline"
+        "livePagesDiscovered": 3,
+        "status": "verified_and_live_augmented"
       },
       "departments": {
         "directoryUrl": "https://iitgn.ac.in/academics/departments",
@@ -94,7 +1205,14 @@
         "provenance": "curated_catalog",
         "verificationDate": "2026-10-14",
         "status": "verified_portal",
-        "discoveredPages": []
+        "discoveredPages": [
+          {
+            "url": "https://iitgn.ac.in/departmentlist",
+            "title": "IIT Gandhinagar | Events",
+            "provenance": "live_crawl_extracted",
+            "status": "discovered_page"
+          }
+        ]
       },
       "admissions": {
         "portalUrl": "https://iitgn.ac.in/admissions",
@@ -108,7 +1226,14 @@
         "provenance": "curated_catalog",
         "verificationDate": "2026-10-14",
         "status": "verified_portal",
-        "discoveredPages": []
+        "discoveredPages": [
+          {
+            "url": "https://iitgn.ac.in/admissions",
+            "title": "IIT Gandhinagar | Admissions",
+            "provenance": "live_crawl_extracted",
+            "status": "discovered_page"
+          }
+        ]
       },
       "placements": {
         "cellName": "Career Development Services (CDS)",
@@ -118,7 +1243,14 @@
         "provenance": "curated_catalog",
         "verificationDate": "2026-10-14",
         "status": "verified_portal",
-        "discoveredPages": []
+        "discoveredPages": [
+          {
+            "url": "https://iitgn.ac.in/careers",
+            "title": "IIT Gandhinagar | careers",
+            "provenance": "live_crawl_extracted",
+            "status": "discovered_page"
+          }
+        ]
       }
     }
   },
@@ -126,25 +1258,43 @@
     "summary": {
       "name": "IIT Bombay",
       "url": "https://www.iitb.ac.in",
-      "resolvedUrl": "https://www.iitb.ac.in",
+      "resolvedUrl": "https://iitb.ac.in/",
       "robotsStatus": 200,
       "permission": "allowed",
+      "robotsPolicy": "published_rules",
       "rules": 52,
       "delay": 2.0,
       "pages": 20,
-      "allowed": 258,
+      "allowed": 259,
       "blocked": 0,
       "emails": [
         "liaison.officer.obc@iitb.ac.in",
         "liaison.officer.scst@iitb.ac.in"
       ],
+      "contacts": [
+        {
+          "email": "liaison.officer.obc@iitb.ac.in",
+          "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+          "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+          "isInstitutional": true,
+          "provenance": "mailto"
+        },
+        {
+          "email": "liaison.officer.scst@iitb.ac.in",
+          "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+          "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+          "isInstitutional": true,
+          "provenance": "mailto"
+        }
+      ],
       "errors": 0,
+      "errorLog": [],
       "pillars": {
         "provenance": {
           "architecture": "3-Pillar Hybrid Dossier",
           "curatedBaseline": true,
           "verificationDate": "2026-10-14",
-          "livePagesDiscovered": 6,
+          "livePagesDiscovered": 2,
           "status": "verified_and_live_augmented"
         },
         "departments": {
@@ -164,20 +1314,7 @@
           "provenance": "curated_catalog",
           "verificationDate": "2026-10-14",
           "status": "verified_portal",
-          "discoveredPages": [
-            {
-              "url": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
-              "title": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-              "provenance": "live_crawl_extracted",
-              "status": "discovered_page"
-            },
-            {
-              "url": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-              "title": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes. | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-              "provenance": "live_crawl_extracted",
-              "status": "discovered_page"
-            }
-          ]
+          "discoveredPages": []
         },
         "admissions": {
           "portalUrl": "https://www.iitb.ac.in/admissions/why-iitb",
@@ -193,20 +1330,8 @@
           "status": "verified_portal",
           "discoveredPages": [
             {
-              "url": "https://www.iitb.ac.in/admissions/why-iitb",
+              "url": "https://iitb.ac.in/admissions/why-iitb",
               "title": "Why IITB? | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-              "provenance": "live_crawl_extracted",
-              "status": "discovered_page"
-            },
-            {
-              "url": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
-              "title": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-              "provenance": "live_crawl_extracted",
-              "status": "discovered_page"
-            },
-            {
-              "url": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-              "title": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes. | भारतीय प्रौद्योगिकी संस्थान मुंबई",
               "provenance": "live_crawl_extracted",
               "status": "discovered_page"
             }
@@ -222,7 +1347,7 @@
           "status": "verified_portal",
           "discoveredPages": [
             {
-              "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
+              "url": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
               "title": "IIT Bombay celebrates 12th International Day of Yoga | भारतीय प्रौद्योगिकी संस्थान मुंबई",
               "provenance": "live_crawl_extracted",
               "status": "discovered_page"
@@ -235,13 +1360,16 @@
     "sitemaps": [],
     "pages": [
       {
-        "url": "https://www.iitb.ac.in/",
-        "canonicalUrl": "https://www.iitb.ac.in/",
+        "url": "https://iitb.ac.in/",
+        "canonicalUrl": "https://iitb.ac.in/",
         "status": 200,
-        "ms": 983,
-        "kb": 323.4,
+        "ms": 1203,
+        "kb": 323.2,
         "title": "Home | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "IIT Bombay is one of India's premier technical universities. It received UNESCO funds from the Soviet Union and was designated an 'Institute of National Importance' by Parliament in 1961.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -277,21 +1405,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
         "words": 3959,
-        "internal": 234,
+        "internal": 235,
         "external": 47,
-        "allowedCount": 234,
+        "allowedCount": 235,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/about",
-        "canonicalUrl": "https://www.iitb.ac.in/about",
+        "url": "https://iitb.ac.in/about",
+        "canonicalUrl": "https://iitb.ac.in/about",
         "status": 200,
-        "ms": 655,
+        "ms": 2578,
         "kb": 136.1,
         "title": "About | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-        "desc": "",
+        "titleSource": "title_tag",
+        "desc": "IIT Bombay is one of India's premier technical universities. It received UNESCO funds from the Soviet Union and was designated an 'Institute of National Importance' by Parliament in 1961.",
+        "descSource": "og",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -323,6 +1455,7 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
         "words": 547,
         "internal": 50,
@@ -331,17 +1464,36 @@
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
-        "canonicalUrl": "https://www.iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+        "url": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+        "canonicalUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
         "status": 200,
-        "ms": 750,
-        "kb": 125.8,
+        "ms": 2781,
+        "kb": 125.7,
         "title": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Institute is committed to maintain a work environment wherein faculty, staff and student members from different community can work in a coherent environment. It is the Institute's endeavor to ensure that no discrimination takes place at workplace or inside the Institute campus. The Institute has appointed Liaison Officers who can be contacted in the event of any incident of discrimination. Particulars of Liaison Officers is as under. OBC Liaison Cell",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [],
         "emails": [
           "liaison.officer.obc@iitb.ac.in",
           "liaison.officer.scst@iitb.ac.in"
+        ],
+        "contacts": [
+          {
+            "email": "liaison.officer.obc@iitb.ac.in",
+            "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+            "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+            "isInstitutional": true,
+            "provenance": "mailto"
+          },
+          {
+            "email": "liaison.officer.scst@iitb.ac.in",
+            "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+            "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+            "isInstitutional": true,
+            "provenance": "mailto"
+          }
         ],
         "phones": [],
         "words": 160,
@@ -351,13 +1503,16 @@
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/admissions/why-iitb",
-        "canonicalUrl": "https://www.iitb.ac.in/admissions/why-iitb",
+        "url": "https://iitb.ac.in/admissions/why-iitb",
+        "canonicalUrl": "https://iitb.ac.in/admissions/why-iitb",
         "status": 200,
-        "ms": 608,
+        "ms": 1140,
         "kb": 135.4,
         "title": "Why IITB? | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The answer to the question, “Where can I get an education that I can value throughout my life?” is \"at IITB\".IIT Bombay provides education for a lifetime through excellence in academic scholarship and the overall experience at campus.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -389,6 +1544,7 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
         "words": 281,
         "internal": 46,
@@ -397,15 +1553,19 @@
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/announcements",
-        "canonicalUrl": "https://www.iitb.ac.in/announcements",
+        "url": "https://iitb.ac.in/announcements",
+        "canonicalUrl": "https://iitb.ac.in/announcements",
         "status": 200,
-        "ms": 1250,
-        "kb": 135.6,
+        "ms": 984,
+        "kb": 135.5,
         "title": "Announcements | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-        "desc": "",
+        "titleSource": "title_tag",
+        "desc": "IIT Bombay is one of India's premier technical universities. It received UNESCO funds from the Soviet Union and was designated an 'Institute of National Importance' by Parliament in 1961.",
+        "descSource": "og",
+        "descPresent": true,
         "headings": [],
         "emails": [],
+        "contacts": [],
         "phones": [],
         "words": 430,
         "internal": 68,
@@ -414,49 +1574,19 @@
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
-        "canonicalUrl": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
+        "url": "https://iitb.ac.in/books-videos",
+        "canonicalUrl": "https://iitb.ac.in/books-videos",
         "status": 200,
-        "ms": 625,
-        "kb": 126.9,
-        "title": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-        "desc": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes.Students having an interest in Design with an aptitude for Creativity, Visualization and Problem Solving are encouraged to apply.For more details visit:CEED - 2027 :",
-        "headings": [],
-        "emails": [],
-        "phones": [],
-        "words": 121,
-        "internal": 46,
-        "external": 47,
-        "allowedCount": 46,
-        "blockedCount": 0
-      },
-      {
-        "url": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-        "canonicalUrl": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-        "status": 200,
-        "ms": 765,
-        "kb": 126.8,
-        "title": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes. | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-        "desc": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes.Students having an interest in Design with an aptitude for Creativity, Visualization and Problem Solving are encouraged to apply.For more details visit:UCEED - 2027 :",
-        "headings": [],
-        "emails": [],
-        "phones": [],
-        "words": 117,
-        "internal": 46,
-        "external": 47,
-        "allowedCount": 46,
-        "blockedCount": 0
-      },
-      {
-        "url": "https://www.iitb.ac.in/books-videos",
-        "canonicalUrl": "https://www.iitb.ac.in/books-videos",
-        "status": 200,
-        "ms": 1250,
+        "ms": 905,
         "kb": 130.7,
         "title": "Books and Videos | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "Site map for publications (books, reports, brochures etc.) and films",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [],
         "emails": [],
+        "contacts": [],
         "phones": [],
         "words": 268,
         "internal": 48,
@@ -465,13 +1595,16 @@
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
+        "url": "https://iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
         "status": 200,
-        "ms": 671,
+        "ms": 2389,
         "kb": 137.1,
         "title": "Awareness Workshop on Protecting Green Assets During Urban Development at IIT Bombay | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Office of the Dean (IPS), IIT Bombay, organized an Awareness Workshop on \"Protecting Green Assets During Urban Development\" on 22nd June 2026. Conducted in two sessions for IIT Bombay staff (engineers) and contractors engaged in campus infrastructure works, the one-of-its-kind workshop aimed to promote environmentally responsible development practices while safeguarding the campus's rich biodiversity and natural habitats.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -479,21 +1612,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 260,
+        "words": 259,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
+        "url": "https://iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
         "status": 200,
-        "ms": 1125,
+        "ms": 1703,
         "kb": 138.8,
         "title": "Enthuse 2026 Showcases New Students to IIT Bombay's Research Ecosystem | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "Over 1,400 newly admitted undergraduate students from 15+ disciplines came together on 24th July 2026 for Enthuse 2026, an exciting introduction to the vibrant research ecosystem at IIT Bombay.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -501,21 +1638,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 316,
+        "words": 315,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
+        "url": "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
         "status": 200,
-        "ms": 3155,
-        "kb": 138.6,
+        "ms": 953,
+        "kb": 138.5,
         "title": "Ground-Breaking Ceremony Of The Advanced Research Labs At IIT Bombay | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "On 14th May 2026, IIT Bombay marked a significant milestone with the ground-breaking ceremony of its upcoming Advanced Research Labs (ARL), a high-end facility for advanced research infrastructure envisioned to strengthen the Institute’s advanced scientific and technological research ecosystem.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -523,21 +1664,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 343,
+        "words": 342,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
+        "url": "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
         "status": 200,
-        "ms": 2811,
+        "ms": 1719,
         "kb": 135.0,
         "title": "Ground-breaking ceremony of the Biodiversity Lab at Soneri Baug | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "On 8th October 2026, IIT Bombay marked an important milestone with the ground-breaking ceremony for phase-I of the Biodiversity Lab at Soneri Baug, located along the lakeside fringe road on the campus.The event was graced by many Institute functionaries and representatives from the Estate Office, Chief Security Office, Facility Management office and Public Health Office. Dean (IPS) shared his perspectives on integrating environmental considerations into campus development.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -545,21 +1690,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 184,
+        "words": 183,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
+        "url": "https://iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
         "status": 200,
-        "ms": 671,
-        "kb": 141.9,
+        "ms": 1750,
+        "kb": 141.8,
         "title": "Hon’ble Minister of Education Shri Dharmendra Pradhan inaugurates India’s First Integrated CCUS Field Laboratory Facility under Bharat Innovates 2026 | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Hon’ble Minister of Education, Shri Dharmendra Pradhan, inaugurated India’s first Integrated CCUS Field Laboratory Facility under Bharat Innovates 2026 on May 11, 2026. The event was held in the presence of Shri Vineet Joshi, Secretary, Department of Higher Education, Ministry of Education, Government of India; Prof. Shireesh Kedare, Director, IIT Bombay; Prof. Milind Atrey, Deputy Director (Academics, Research and Translation); Prof.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -567,21 +1716,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 821,
+        "words": 820,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
+        "url": "https://iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
         "status": 200,
-        "ms": 2015,
+        "ms": 1546,
         "kb": 133.9,
         "title": "IAF and IIT Bombay Sign MoA to Advance Flight Test Education and Research | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "Indian Air Force and IIT Bombay signed a unique MoA on 2nd September, 2026. It has defined a collaborative framework for Air Force Test Pilot School (AFTPS) at Aircraft and Systems Testing Establishment (ASTE) of IAF to work in consonance with academic and technological prowess infused with research capabilities of IIT Bombay towards Master’s Degree for Flight Test Crew (Test Pilots and Fight Test Engineers).",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -589,21 +1742,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 246,
+        "words": 245,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
         "status": 200,
-        "ms": 1015,
+        "ms": 1125,
         "kb": 133.3,
         "title": "IIT Bombay Achieves STARS Gold Rating - AASHE Sustainability Assessment | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "Indian Institute of Technology Bombay has achieved the GOLD Rating under the Sustainability Tracking, Assessment & Rating System (STARS), administered by the Association for the Advancement of Sustainability in Higher Education (AASHE).",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -611,21 +1768,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 180,
+        "words": 179,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
         "status": 200,
-        "ms": 1890,
-        "kb": 137.1,
+        "ms": 2031,
+        "kb": 137.0,
         "title": "IIT Bombay Advances Regional Cooperation at AUA Summit 2026 in Kazakhstan | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Office of International Relations, IIT Bombay participated in the Asian Universities Alliance (AUA) Summit 2026, hosted by Nazarbayev University in Astana, Kazakhstan during 1st–2nd June, 2026. The Summit brought together university leaders, researchers and policymakers from leading Asian institutions to discuss the future of higher education, governance innovation, industry engagement and regional collaboration.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -633,21 +1794,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 272,
+        "words": 271,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
         "status": 200,
-        "ms": 796,
+        "ms": 1312,
         "kb": 137.7,
         "title": "IIT Bombay And DGMA Sign MoU For Maritime Research and Innovation | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "Ocean Engineering - IIT Bombay is pleased to share that IIT Bombay and the Directorate General of Maritime Administration (DGMA) signed a MoU on 12 August 2026, establishing a framework for closer collaboration in maritime research, technology development, education and capacity building. The MoU was signed by Prof. Shrikrishna V. Kulkarni, Dean (Research and Development), IIT Bombay and Mr. Sushil Khopde, IPS, Additional Director General of Maritime Administration.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -655,21 +1820,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 325,
+        "words": 324,
         "internal": 51,
         "external": 46,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
         "status": 200,
-        "ms": 2077,
+        "ms": 1671,
         "kb": 140.4,
         "title": "IIT Bombay and Imperial College London launch strategic partnership in research, innovation and education | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Indian Institute of Technology Bombay, India (IIT Bombay) and the UK’s Imperial College London have launched a strategic partnership across research, innovation and education.The agreement begins a new phase of closer collaboration between the two institutions and will initially prioritise research in clean technology and medical technology.IIT Bombay is one of Imperial’s top collaborating institutions in India and this new partnership builds on years of successful joint research projects between Indian and British academics.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -677,21 +1846,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 860,
+        "words": 859,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
         "status": 200,
-        "ms": 907,
-        "kb": 134.1,
+        "ms": 1953,
+        "kb": 134.0,
         "title": "IIT Bombay and Tata Power Sign Agreement For Clean Energy Innovation | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "The Institute is pleased to announce the signing of a Master Research Agreement between IIT Bombay and Tata Power, marking the beginning of a long-term strategic collaboration to advance research and innovation in clean energy and next-generation power technologies.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -699,21 +1872,25 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 264,
+        "words": 263,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
         "blockedCount": 0
       },
       {
-        "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
-        "canonicalUrl": "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
         "status": 200,
-        "ms": 735,
+        "ms": 1438,
         "kb": 136.8,
         "title": "IIT Bombay celebrates 12th International Day of Yoga | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
         "desc": "IIT Bombay commemorated the 12th International Day of Yoga on June 21, 2026. Dr. Rajvi Mehta, Clinical Embryologist and Senior Iyengar Yoga Teacher, was the Chief Guest. Around 100 people participated in the event held at the Badminton Court. The event was graced by several functionaries including Prof. Neela Nataraj, Dean (Strategy) and Acting Director; Prof. Suryanarayana Doolla, Dean (Student Affairs); Prof. Neeraj Kumbhakarna, Team Yogastha Faculty mentor and Mr. Ganesh Bhorkade, Registrar.",
+        "descSource": "meta",
+        "descPresent": true,
         "headings": [
           [
             "h2",
@@ -721,8 +1898,61 @@
           ]
         ],
         "emails": [],
+        "contacts": [],
         "phones": [],
-        "words": 302,
+        "words": 301,
+        "internal": 51,
+        "external": 45,
+        "allowedCount": 51,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-indias-80th-independence-day",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-indias-80th-independence-day",
+        "status": 200,
+        "ms": 1219,
+        "kb": 138.7,
+        "title": "IIT Bombay Celebrates India’s 80th Independence Day | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
+        "desc": "The Indian Institute of Technology Bombay (IIT Bombay) celebrated the 80th Independence Day on 15th August, 2026 with great enthusiasm and pride. The celebrations took place near the iconic arch facing the Nandan Nilekani Main Building, a fitting venue for honouring the spirit of India’s freedom.",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Recent News"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 496,
+        "internal": 51,
+        "external": 45,
+        "allowedCount": 51,
+        "blockedCount": 0
+      },
+      {
+        "url": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-van-mahotsav-2026",
+        "canonicalUrl": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-van-mahotsav-2026",
+        "status": 200,
+        "ms": 813,
+        "kb": 139.7,
+        "title": "IIT Bombay Celebrates Van Mahotsav 2026 | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "titleSource": "title_tag",
+        "desc": "As part of its continued commitment to environmental sustainability and ecological conservation, the Indian Institute of Technology Bombay (IIT Bombay) celebrated Van Mahotsav 2026 on Saturday, 29th August 2026, at the Hostel No. 15 playground in the Institute campus. On the occasion, Director of IIT Bombay Prof. Shireesh Kedare, highlighted the Institute's efforts towards creating a green and environmentally responsible campus.",
+        "descSource": "meta",
+        "descPresent": true,
+        "headings": [
+          [
+            "h2",
+            "Recent News"
+          ]
+        ],
+        "emails": [],
+        "contacts": [],
+        "phones": [],
+        "words": 327,
         "internal": 51,
         "external": 45,
         "allowedCount": 51,
@@ -731,256 +1961,257 @@
     ],
     "blocked": {},
     "allowedLinks": [
-      "https://www.iitb.ac.in/",
-      "https://www.iitb.ac.in/about",
-      "https://www.iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
-      "https://www.iitb.ac.in/admissions/why-iitb",
-      "https://www.iitb.ac.in/announcements",
-      "https://www.iitb.ac.in/annual-reports",
+      "https://iitb.ac.in/",
+      "https://iitb.ac.in/about",
+      "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+      "https://iitb.ac.in/admissions/why-iitb",
+      "https://iitb.ac.in/announcements",
+      "https://iitb.ac.in/annual-reports",
+      "https://iitb.ac.in/books-videos",
+      "https://iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
+      "https://iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
+      "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
+      "https://iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
+      "https://iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
+      "https://iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
+      "https://iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
+      "https://iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
+      "https://iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
+      "https://iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
+      "https://iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
+      "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
+      "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-indias-80th-independence-day",
+      "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-van-mahotsav-2026",
+      "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-world-bicycle-day-0",
+      "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-world-environment-day-2026",
+      "https://iitb.ac.in/breaking-news/iit-bombay-commemorates-mahatma-gandhi-and-lal-bahadur-shastri-jayanti-2026-and",
+      "https://iitb.ac.in/breaking-news/iit-bombay-dexa-auv-triumphs-robosub-2026-california",
+      "https://iitb.ac.in/breaking-news/iit-bombay-expands-global-collaborations-hse-international-partners-week-2026",
+      "https://iitb.ac.in/breaking-news/iit-bombay-holds-its-64th-convocation-and-departmental-degree-award-function-ddaf",
+      "https://iitb.ac.in/breaking-news/iit-bombay-honours-excellence-teaching-and-academics-teachers-day",
+      "https://iitb.ac.in/breaking-news/iit-bombay-hosts-awareness-session-licensing-and-entrepreneurship",
+      "https://iitb.ac.in/breaking-news/iit-bombay-hosts-commencement-2026-celebrate-graduating-batch",
+      "https://iitb.ac.in/breaking-news/iit-bombay-hosts-consul-general-japan-advance-bilateral-academic-engagement",
+      "https://iitb.ac.in/breaking-news/iit-bombay-hosts-khelo-india-samvaad-khel-ki-baat-pm-ke-saath",
+      "https://iitb.ac.in/breaking-news/iit-bombay-iiit-pune-sign-mou-boost-research-and-innovation-collaboration",
+      "https://iitb.ac.in/breaking-news/iit-bombay-nsdl-payments-bank-and-bharatgen-sign-mou-ai-and-cybersecurity",
+      "https://iitb.ac.in/breaking-news/iit-bombay-observes-world-intellectual-property-day-2026",
+      "https://iitb.ac.in/breaking-news/iit-bombay-racing-crowned-double-champions-formula-student-portugal-2026",
+      "https://iitb.ac.in/breaking-news/iit-bombay-signs-mou-icc-world-technology-convention-2026-advance-industry-academia",
+      "https://iitb.ac.in/breaking-news/iit-bombay-strengthens-academic-and-research-partnerships-japan",
+      "https://iitb.ac.in/breaking-news/inauguration-interactive-classrooms-and-executive-seminar-rooms-dsse-building-0",
+      "https://iitb.ac.in/breaking-news/india-nuclear-energy-forum-inef-2026-concludes-iit-bombay-national-action-plan",
+      "https://iitb.ac.in/breaking-news/industry-day-novel-alternative-models-nams-drug-discovery",
+      "https://iitb.ac.in/breaking-news/kpit-leadership-visits-iit-bombay-innovation-exchange",
+      "https://iitb.ac.in/breaking-news/maharashtra-it-ai-minister-ashish-shelar-visits-iit-bombay",
+      "https://iitb.ac.in/breaking-news/national-engineers-day-iit-bombay-honours-excellence-engineering-and-research",
+      "https://iitb.ac.in/breaking-news/npcil-iit-bombay-sign-mou-pioneer-dsm-technology-ghavp-nuclear-project",
+      "https://iitb.ac.in/breaking-news/sine-iit-bombay-marks-world-entrepreneurs-day-exim-bank-seed-fund-partnership",
+      "https://iitb.ac.in/breaking-news/tca2i-iit-bombay-and-npcil-ink-mou-ai-collaboration",
+      "https://iitb.ac.in/campus-diary",
+      "https://iitb.ac.in/career/apply",
+      "https://iitb.ac.in/career/why-iitb",
+      "https://iitb.ac.in/cdeep",
+      "https://iitb.ac.in/contact-us",
+      "https://iitb.ac.in/credits-disclaimer",
+      "https://iitb.ac.in/director-message",
+      "https://iitb.ac.in/event/20th-world-sanskrit-conference",
+      "https://iitb.ac.in/event/4th-international-conference-construction-materials-and-structures-iccms-2027",
+      "https://iitb.ac.in/event/5th-japan-india-forum",
+      "https://iitb.ac.in/event/80th-independence-day-2026",
+      "https://iitb.ac.in/event/alumni-day-celebrations-2026",
+      "https://iitb.ac.in/event/armed-forces-flag-day-2026",
+      "https://iitb.ac.in/event/birth-anniversary-gandhi-ji-and-shastri-ji-1",
+      "https://iitb.ac.in/event/communal-harmony-campaign-week-1",
+      "https://iitb.ac.in/event/conference-currents-war-tides-change-second-world-war-indian-ocean",
+      "https://iitb.ac.in/event/departmental-degree-award-function-ddaf-2026-64th-convocation",
+      "https://iitb.ac.in/event/hindi-diwas-2026",
+      "https://iitb.ac.in/event/hindi-pakhwada-2026",
+      "https://iitb.ac.in/event/institute-lecture-saral-ai-democratising-scholarly-work-transforming-accessible-multilingual",
+      "https://iitb.ac.in/event/institute-lecture-taming-turbulence",
+      "https://iitb.ac.in/event/institutions-innovation-day-1",
+      "https://iitb.ac.in/event/international-conference-quantum-dynamics",
+      "https://iitb.ac.in/event/international-day-clean-air-blue-skies-0",
+      "https://iitb.ac.in/event/janajatiya-gaurav-diwas-1",
+      "https://iitb.ac.in/event/khelo-india-samvaad-khel-ki-baat-pm-ke-saath-virtual-address-honble-prime-minister-shri",
+      "https://iitb.ac.in/event/moving-towards-inclusive-neuro-digital-world-mindworkshop",
+      "https://iitb.ac.in/event/national-constitution-day-5",
+      "https://iitb.ac.in/event/national-cyber-security-awareness-month",
+      "https://iitb.ac.in/event/national-education-day-2026",
+      "https://iitb.ac.in/event/national-energy-conservation-day-1",
+      "https://iitb.ac.in/event/national-engineers-day-1",
+      "https://iitb.ac.in/event/national-entrepreneurship-day-2026",
+      "https://iitb.ac.in/event/national-pollution-control-day-2026",
+      "https://iitb.ac.in/event/national-space-day-2026",
+      "https://iitb.ac.in/event/national-sports-day-2026",
+      "https://iitb.ac.in/event/rashtriya-ekta-diwas-1",
+      "https://iitb.ac.in/event/swachhata-pakhwada-2026",
+      "https://iitb.ac.in/event/teachers-day-2026",
+      "https://iitb.ac.in/event/us-roadshow-1",
+      "https://iitb.ac.in/event/van-mahotsav-2026",
+      "https://iitb.ac.in/event/veer-bal-diwas-2026",
+      "https://iitb.ac.in/event/vigilance-awareness-week-4",
+      "https://iitb.ac.in/event/world-entrepreneurs-day-2026",
+      "https://iitb.ac.in/event/world-mental-health-day-0",
+      "https://iitb.ac.in/event/world-rabies-day-0",
+      "https://iitb.ac.in/event/world-suicide-prevention-day-0",
+      "https://iitb.ac.in/events",
+      "https://iitb.ac.in/events-ministry-education",
+      "https://iitb.ac.in/faculty-forum",
+      "https://iitb.ac.in/faculty-forum-iit-bombay",
+      "https://iitb.ac.in/faculty-staff/awards-honours",
+      "https://iitb.ac.in/faculty-staff/human-resource",
+      "https://iitb.ac.in/govt-updates",
+      "https://iitb.ac.in/holidayslist",
+      "https://iitb.ac.in/industry/drona",
+      "https://iitb.ac.in/industry/research-development",
+      "https://iitb.ac.in/institute-colloquium",
+      "https://iitb.ac.in/international-applicants",
+      "https://iitb.ac.in/international-exchange-opportunities",
+      "https://iitb.ac.in/kshitij",
+      "https://iitb.ac.in/national-institutional-ranking-framework-nirf",
+      "https://iitb.ac.in/national-level-openhardware-iot-based-geospatial-hackathon",
+      "https://iitb.ac.in/news",
+      "https://iitb.ac.in/node/103",
+      "https://iitb.ac.in/node/130",
+      "https://iitb.ac.in/node/139",
+      "https://iitb.ac.in/node/2697",
+      "https://iitb.ac.in/node/2713",
+      "https://iitb.ac.in/organizational-chart",
+      "https://iitb.ac.in/research-highlight/accounting-fragmented-forests-crucial-effective-afforestation-planning",
+      "https://iitb.ac.in/research-highlight/accurate-shrinkage-prediction-kiln-heated-3d-printed-parts",
+      "https://iitb.ac.in/research-highlight/amartya-mukhopadhyay-pioneering-sodium-ion-battery-technology-sustainable-future",
+      "https://iitb.ac.in/research-highlight/bacterial-cocktail-farm-soil-clean-pollutants-and-pesticides-and-enhance-crop",
+      "https://iitb.ac.in/research-highlight/blood-proteins-detect-brain-tumours",
+      "https://iitb.ac.in/research-highlight/cells-use-tiny-tweezer-machines-kill-germs",
+      "https://iitb.ac.in/research-highlight/choosing-wall-materials-cooler-homes-using-computational-methods",
+      "https://iitb.ac.in/research-highlight/coastal-vegetation-mitigate-tsunami-and-coastal-flood-impacts",
+      "https://iitb.ac.in/research-highlight/cobalt-based-catalysts-and-more-reducing-carbon-emissions-steel-industry-0",
+      "https://iitb.ac.in/research-highlight/collagen-might-be-making-type-2-diabetes-worse-finds-study",
+      "https://iitb.ac.in/research-highlight/coming-soon-tabletop-chiral-attosecond-laser",
+      "https://iitb.ac.in/research-highlight/cooler-alternative-cool-supercomputers",
+      "https://iitb.ac.in/research-highlight/could-cold-dark-oceans-cool-our-data-centres-iit-bombay-study-finds-way",
+      "https://iitb.ac.in/research-highlight/cracks-blood-stains-could-tell-us-how-they-got-there-according-new-study",
+      "https://iitb.ac.in/research-highlight/do-small-farms-outperform-big-ones-study-reveals-changes-over-40-years-india",
+      "https://iitb.ac.in/research-highlight/geometry-surgery-turning-flat-images-3d-pathways",
+      "https://iitb.ac.in/research-highlight/green-roofs-can-effectively-reduce-floods-dense-urban-areas-finds-study",
+      "https://iitb.ac.in/research-highlight/hard-truth-about-role-soft-tissue-brain-cancer-relapse",
+      "https://iitb.ac.in/research-highlight/harnessing-power-defects-improve-metallic-alloys",
+      "https://iitb.ac.in/research-highlight/harnessing-power-defects-improve-metallic-alloys-0",
+      "https://iitb.ac.in/research-highlight/heatwaves-indo-gangetic-plains-why-local-land-and-atmospheric-conditions-matter",
+      "https://iitb.ac.in/research-highlight/hidden-blood-markers-may-explain-diabetes-risks-india",
+      "https://iitb.ac.in/research-highlight/hitchhiking-dna-how-tiny-circular-piece-dna-tricks-yeast-survival",
+      "https://iitb.ac.in/research-highlight/how-do-cells-decide-which-way-grow-role-invisible-mechanical-cues-tissue",
+      "https://iitb.ac.in/research-highlight/how-researchers-are-optimising-indian-railways-without-touching-train-or-track",
+      "https://iitb.ac.in/research-highlight/how-tiny-molecule-can-prevent-excess-fat-blood",
+      "https://iitb.ac.in/research-highlight/iit-bombay-develops-method-finding-optimum-size-fuel-cell-electric-vehicle",
+      "https://iitb.ac.in/research-highlight/iit-bombay-researchers-achieve-cost-reduction-while-developing-mechanically",
+      "https://iitb.ac.in/research-highlight/iit-bombay-researchers-engineer-economic-and-efficient-catalyst-split-water",
+      "https://iitb.ac.in/research-highlight/iit-bombay-researchers-propose-bottling-sunlight-summers-use-heating-winter",
+      "https://iitb.ac.in/research-highlight/iit-bombay-researchers-use-new-technique-measure-rate-degradation-coatings-iron",
+      "https://iitb.ac.in/research-highlight/iit-bombay-team-develops-affordable-portable-water-pollutant-detecting-device",
+      "https://iitb.ac.in/research-highlight/iit-bombays-laser-trick-makes-3d-metal-printing-faster-and-stronger",
+      "https://iitb.ac.in/research-highlight/iit-bombays-new-study-shows-mucus-paradox-our-lungs",
+      "https://iitb.ac.in/research-highlight/iit-bombays-new-thermally-insulating-coating-material-shows-record-heat",
+      "https://iitb.ac.in/research-highlight/iit-bombays-tara-mobile-app-help-achieve-nationwide-oral-reading-fluency",
+      "https://iitb.ac.in/research-highlight/iitb-researchers-develop-novel-method-test-quantumness-gravity",
+      "https://iitb.ac.in/research-highlight/improving-how-immune-cells-are-prepared-cancer-care",
+      "https://iitb.ac.in/research-highlight/indian-institute-technology-bombay-study-finds-why-our-current-methods-testing",
+      "https://iitb.ac.in/research-highlight/ligand-enabled-distal-desaturative-lactonization-aliphatic-acids",
+      "https://iitb.ac.in/research-highlight/light-logic-ultrafast-quantum-switching-2d-materials",
+      "https://iitb.ac.in/research-highlight/lipid-travel-diary",
+      "https://iitb.ac.in/research-highlight/living-nano-assembly-tackle-pollution-stubborn-textile-dyes-wastewater",
+      "https://iitb.ac.in/research-highlight/lotus-leaf-solar-evaporators-saltwater-treatment",
+      "https://iitb.ac.in/research-highlight/magnetic-field-regulates-blood-flow-partially-blocked-arteries",
+      "https://iitb.ac.in/research-highlight/making-sense-human-brain-how-brainprot-and-drugprotai-aim-help-researchers",
+      "https://iitb.ac.in/research-highlight/mimicking-locust-brains-scientists-develop-low-power-artificial-neurons-capable",
+      "https://iitb.ac.in/research-highlight/much-needed-analytical-study-more-sustainable-waste-disposal-healthcare-sector",
+      "https://iitb.ac.in/research-highlight/nanotatrapods-flowmakers-plastic-melts",
+      "https://iitb.ac.in/research-highlight/natural-disasters-and-climate-change-have-long-term-impact-state-finances",
+      "https://iitb.ac.in/research-highlight/needle-free-shock-syringes-painless-medical-treatments",
+      "https://iitb.ac.in/research-highlight/new-iit-bombay-study-could-help-improve-cooperation-amongst-robots",
+      "https://iitb.ac.in/research-highlight/new-open-source-app-can-track-climate-change-through-lake-water-temperatures",
+      "https://iitb.ac.in/research-highlight/new-research-friction-welding-significantly-improves-weld-just-change-shape",
+      "https://iitb.ac.in/research-highlight/new-study-reveals-how-ultrasonic-vibration-solves-microhole-drilling-problem",
+      "https://iitb.ac.in/research-highlight/new-study-shows-how-ancient-martian-climate-changed-time-thaumasian-highlands",
+      "https://iitb.ac.in/research-highlight/new-tech-make-drone-swarms-efficient-autonomous-and-stealth-ready",
+      "https://iitb.ac.in/research-highlight/new-way-make-old-antibiotics-work-again",
+      "https://iitb.ac.in/research-highlight/novel-iit-bombay-paddle-wheels-sensor-detect-heavy-metals-water",
+      "https://iitb.ac.in/research-highlight/novel-mathematical-model-test-traffic-control-algorithms",
+      "https://iitb.ac.in/research-highlight/novel-spatially-aware-ai-model-makes-hurricane-damage-assessment-more-accurate",
+      "https://iitb.ac.in/research-highlight/pcos-likely-compromise-attention-based-tasks-affected-women",
+      "https://iitb.ac.in/research-highlight/predicting-plot-microbes-hint-evolutions-unsolved-question",
+      "https://iitb.ac.in/research-highlight/regional-coordination-and-phased-storage-growth-are-crucial-indias-renewable",
+      "https://iitb.ac.in/research-highlight/researchers-develop-high-precision-ai-system-predict-flood-depths",
+      "https://iitb.ac.in/research-highlight/researchers-develop-smart-irrigation-plan-save-10-30-irrigation-water-drought",
+      "https://iitb.ac.in/research-highlight/researchers-iit-bombay-harness-power-silicon-nitride-optimize-photonic",
+      "https://iitb.ac.in/research-highlight/researchers-model-unique-s-start-motion-newborn-yellow-anacondas-use-escape",
+      "https://iitb.ac.in/research-highlight/robots-mimic-animal-homing-scientists-uncover-how-animals-find-their-way-back",
+      "https://iitb.ac.in/research-highlight/satellites-measure-atmospheric-methane-and-carbon-dioxide-levels",
+      "https://iitb.ac.in/research-highlight/say-it-spot-it-new-model-decodes-earth-images-natural-language",
+      "https://iitb.ac.in/research-highlight/scientists-iit-bombay-develop-new-technique-offers-insights-interfacial",
+      "https://iitb.ac.in/research-highlight/searching-bangs-cosmic-whispers",
+      "https://iitb.ac.in/research-highlight/single-step-method-make-high-performance-nanoparticle-coated-microfibres",
+      "https://iitb.ac.in/research-highlight/strain-resistant-buckled-xenes-show-promise-flexible-electronics",
+      "https://iitb.ac.in/research-highlight/study-reveals-how-new-species-evolve-without-geographic-barriers",
+      "https://iitb.ac.in/research-highlight/study-sheds-light-how-micro-and-nano-plastics-form",
+      "https://iitb.ac.in/research-highlight/study-suggests-strategies-extract-truth-unwilling-senders",
+      "https://iitb.ac.in/research-highlight/sunlight-charged-wearable-thermal-battery",
+      "https://iitb.ac.in/research-highlight/super-emitters-road-need-comprehensive-review-vehicular-regulations",
+      "https://iitb.ac.in/research-highlight/tabletop-robot-twins-unlock-mystery-how-microbes-perform-run-and-tumble-motion",
+      "https://iitb.ac.in/research-highlight/tb-bacterias-tough-armor-cellular-shield-against-treatment",
+      "https://iitb.ac.in/research-highlight/treated-refinery-wastewater-flowing-through-sand-cleans-itself-further-pollutant",
+      "https://iitb.ac.in/research-highlight/turning-quantum-uncertainty-precision-quantum-sensing-0",
+      "https://iitb.ac.in/research-highlight/twist-light-enhances-chiral-discrimination",
+      "https://iitb.ac.in/research-highlight/understanding-impaired-processing-reward-and-motivation-parkinsons-disease",
+      "https://iitb.ac.in/research-highlight/understanding-rubcrete-how-waste-tyres-are-making-concrete-tougher-and-greener",
+      "https://iitb.ac.in/research-highlight/unlocking-high-frequency-surface-acoustic-waves-silicon-new-frontier-phononic",
+      "https://iitb.ac.in/research-highlight/unravelling-sands-time-exploring-mesozoic-sands-saurashtra-basin",
+      "https://iitb.ac.in/research-highlight/walking-towards-solution-early-parkinsons-detection",
+      "https://iitb.ac.in/research-highlight/why-do-some-antibiotics-cause-liver-damage-more-others",
+      "https://iitb.ac.in/resources/day-care",
+      "https://iitb.ac.in/resources/event-vanues",
+      "https://iitb.ac.in/resources/forms",
+      "https://iitb.ac.in/resources/gate-pass-visitors",
+      "https://iitb.ac.in/resources/gendercell",
+      "https://iitb.ac.in/resources/handbooks",
+      "https://iitb.ac.in/resources/legal-support",
+      "https://iitb.ac.in/resources/local-transport-services",
+      "https://iitb.ac.in/resources/rti",
+      "https://iitb.ac.in/resources/schools",
+      "https://iitb.ac.in/resources/sports",
+      "https://iitb.ac.in/resources/vendors-tenders",
+      "https://iitb.ac.in/resources/vigilance",
+      "https://iitb.ac.in/scst-students-cell",
       "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several",
       "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
       "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several",
       "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
       "https://www.iitb.ac.in/article/jam-2025-admissions",
       "https://www.iitb.ac.in/attn-jam-2026-registered-candidates",
-      "https://www.iitb.ac.in/books-videos",
-      "https://www.iitb.ac.in/breaking-news/awareness-workshop-protecting-green-assets-during-urban-development-iit-bombay",
-      "https://www.iitb.ac.in/breaking-news/enthuse-2026-showcases-new-students-iit-bombays-research-ecosystem",
-      "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-advanced-research-labs-iit-bombay",
-      "https://www.iitb.ac.in/breaking-news/ground-breaking-ceremony-biodiversity-lab-soneri-baug",
-      "https://www.iitb.ac.in/breaking-news/honble-minister-education-shri-dharmendra-pradhan-inaugurates-indias-first-integrated",
-      "https://www.iitb.ac.in/breaking-news/iaf-and-iit-bombay-sign-moa-advance-flight-test-education-and-research",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-achieves-stars-gold-rating-aashe-sustainability-assessment",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-advances-regional-cooperation-aua-summit-2026-kazakhstan",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-and-dgma-sign-mou-maritime-research-and-innovation",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-and-imperial-college-london-launch-strategic-partnership-research-0",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-and-tata-power-sign-agreement-clean-energy-innovation",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-indias-80th-independence-day",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-van-mahotsav-2026",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-world-bicycle-day-0",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-world-environment-day-2026",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-commemorates-mahatma-gandhi-and-lal-bahadur-shastri-jayanti-2026-and",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-dexa-auv-triumphs-robosub-2026-california",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-expands-global-collaborations-hse-international-partners-week-2026",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-holds-its-64th-convocation-and-departmental-degree-award-function-ddaf",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-honours-excellence-teaching-and-academics-teachers-day",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-hosts-awareness-session-licensing-and-entrepreneurship",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-hosts-commencement-2026-celebrate-graduating-batch",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-hosts-consul-general-japan-advance-bilateral-academic-engagement",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-hosts-khelo-india-samvaad-khel-ki-baat-pm-ke-saath",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-iiit-pune-sign-mou-boost-research-and-innovation-collaboration",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-nsdl-payments-bank-and-bharatgen-sign-mou-ai-and-cybersecurity",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-observes-world-intellectual-property-day-2026",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-racing-crowned-double-champions-formula-student-portugal-2026",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-signs-mou-icc-world-technology-convention-2026-advance-industry-academia",
-      "https://www.iitb.ac.in/breaking-news/iit-bombay-strengthens-academic-and-research-partnerships-japan",
-      "https://www.iitb.ac.in/breaking-news/inauguration-interactive-classrooms-and-executive-seminar-rooms-dsse-building-0",
-      "https://www.iitb.ac.in/breaking-news/india-nuclear-energy-forum-inef-2026-concludes-iit-bombay-national-action-plan",
-      "https://www.iitb.ac.in/breaking-news/industry-day-novel-alternative-models-nams-drug-discovery",
-      "https://www.iitb.ac.in/breaking-news/kpit-leadership-visits-iit-bombay-innovation-exchange",
-      "https://www.iitb.ac.in/breaking-news/maharashtra-it-ai-minister-ashish-shelar-visits-iit-bombay",
-      "https://www.iitb.ac.in/breaking-news/national-engineers-day-iit-bombay-honours-excellence-engineering-and-research",
-      "https://www.iitb.ac.in/breaking-news/npcil-iit-bombay-sign-mou-pioneer-dsm-technology-ghavp-nuclear-project",
-      "https://www.iitb.ac.in/breaking-news/sine-iit-bombay-marks-world-entrepreneurs-day-exim-bank-seed-fund-partnership",
-      "https://www.iitb.ac.in/breaking-news/tca2i-iit-bombay-and-npcil-ink-mou-ai-collaboration",
       "https://www.iitb.ac.in/bulletin-highlights/e-yantra-innovation-challenge-2023-24-register-now",
-      "https://www.iitb.ac.in/campus-diary",
-      "https://www.iitb.ac.in/career/apply",
-      "https://www.iitb.ac.in/career/why-iitb",
-      "https://www.iitb.ac.in/cdeep",
       "https://www.iitb.ac.in/celebration-79th-independence-day-and-har-ghar-tiranga",
-      "https://www.iitb.ac.in/contact-us",
-      "https://www.iitb.ac.in/credits-disclaimer",
-      "https://www.iitb.ac.in/director-message",
-      "https://www.iitb.ac.in/event/20th-world-sanskrit-conference",
-      "https://www.iitb.ac.in/event/4th-international-conference-construction-materials-and-structures-iccms-2027",
-      "https://www.iitb.ac.in/event/5th-japan-india-forum",
-      "https://www.iitb.ac.in/event/80th-independence-day-2026",
-      "https://www.iitb.ac.in/event/alumni-day-celebrations-2026",
-      "https://www.iitb.ac.in/event/armed-forces-flag-day-2026",
-      "https://www.iitb.ac.in/event/birth-anniversary-gandhi-ji-and-shastri-ji-1",
-      "https://www.iitb.ac.in/event/communal-harmony-campaign-week-1",
-      "https://www.iitb.ac.in/event/conference-currents-war-tides-change-second-world-war-indian-ocean",
-      "https://www.iitb.ac.in/event/departmental-degree-award-function-ddaf-2026-64th-convocation",
-      "https://www.iitb.ac.in/event/hindi-diwas-2026",
-      "https://www.iitb.ac.in/event/hindi-pakhwada-2026",
-      "https://www.iitb.ac.in/event/institute-lecture-saral-ai-democratising-scholarly-work-transforming-accessible-multilingual",
-      "https://www.iitb.ac.in/event/institute-lecture-taming-turbulence",
-      "https://www.iitb.ac.in/event/institutions-innovation-day-1",
-      "https://www.iitb.ac.in/event/international-conference-quantum-dynamics",
-      "https://www.iitb.ac.in/event/international-day-clean-air-blue-skies-0",
-      "https://www.iitb.ac.in/event/janajatiya-gaurav-diwas-1",
-      "https://www.iitb.ac.in/event/khelo-india-samvaad-khel-ki-baat-pm-ke-saath-virtual-address-honble-prime-minister-shri",
-      "https://www.iitb.ac.in/event/moving-towards-inclusive-neuro-digital-world-mindworkshop",
-      "https://www.iitb.ac.in/event/national-constitution-day-5",
-      "https://www.iitb.ac.in/event/national-cyber-security-awareness-month",
-      "https://www.iitb.ac.in/event/national-education-day-2026",
-      "https://www.iitb.ac.in/event/national-energy-conservation-day-1",
-      "https://www.iitb.ac.in/event/national-engineers-day-1",
-      "https://www.iitb.ac.in/event/national-entrepreneurship-day-2026",
-      "https://www.iitb.ac.in/event/national-pollution-control-day-2026",
-      "https://www.iitb.ac.in/event/national-space-day-2026",
-      "https://www.iitb.ac.in/event/national-sports-day-2026",
-      "https://www.iitb.ac.in/event/rashtriya-ekta-diwas-1",
-      "https://www.iitb.ac.in/event/swachhata-pakhwada-2026",
-      "https://www.iitb.ac.in/event/teachers-day-2026",
-      "https://www.iitb.ac.in/event/us-roadshow-1",
-      "https://www.iitb.ac.in/event/van-mahotsav-2026",
-      "https://www.iitb.ac.in/event/veer-bal-diwas-2026",
-      "https://www.iitb.ac.in/event/vigilance-awareness-week-4",
-      "https://www.iitb.ac.in/event/world-entrepreneurs-day-2026",
-      "https://www.iitb.ac.in/event/world-mental-health-day-0",
-      "https://www.iitb.ac.in/event/world-rabies-day-0",
-      "https://www.iitb.ac.in/event/world-suicide-prevention-day-0",
-      "https://www.iitb.ac.in/events",
-      "https://www.iitb.ac.in/events-ministry-education",
-      "https://www.iitb.ac.in/faculty-forum",
-      "https://www.iitb.ac.in/faculty-forum-iit-bombay",
-      "https://www.iitb.ac.in/faculty-staff/awards-honours",
-      "https://www.iitb.ac.in/faculty-staff/human-resource",
-      "https://www.iitb.ac.in/govt-updates",
       "https://www.iitb.ac.in/hindi-cell",
-      "https://www.iitb.ac.in/holidayslist",
       "https://www.iitb.ac.in/iit-bombay-fossee-gis-activities-calendar-year-2025",
       "https://www.iitb.ac.in/iit-bombay-glance",
       "https://www.iitb.ac.in/iit-bombay-launches-e-postgraduate-diploma-e-mobility",
       "https://www.iitb.ac.in/iit-bombay-launches-executive-post-graduate-diploma-ai-data-science",
       "https://www.iitb.ac.in/iit-bombay-open-house-2026",
-      "https://www.iitb.ac.in/industry/drona",
-      "https://www.iitb.ac.in/industry/research-development",
-      "https://www.iitb.ac.in/institute-colloquium",
       "https://www.iitb.ac.in/institute-policies-0",
       "https://www.iitb.ac.in/institute-vision-mission",
-      "https://www.iitb.ac.in/international-applicants",
       "https://www.iitb.ac.in/international-conference-role-ipr-promoting-indigenous-knowledge-system-and-viksit-bharat",
       "https://www.iitb.ac.in/international-day-yoga",
-      "https://www.iitb.ac.in/international-exchange-opportunities",
-      "https://www.iitb.ac.in/kshitij",
       "https://www.iitb.ac.in/last-date-closing-registration-jam-2026-applications-has-been-extended-till-235959-hours-monday",
       "https://www.iitb.ac.in/launch-e-yantra-robotics-competition-register-now",
       "https://www.iitb.ac.in/national-education-policy-2020",
       "https://www.iitb.ac.in/national-institutional-ranking-framework-nirf",
-      "https://www.iitb.ac.in/national-level-openhardware-iot-based-geospatial-hackathon",
       "https://www.iitb.ac.in/need-guest-instructors",
       "https://www.iitb.ac.in/newacadhome/ugNewEntrants-2022.jsp",
       "https://www.iitb.ac.in/newacadhome/ugNewEntrants2024-25.jsp",
-      "https://www.iitb.ac.in/news",
-      "https://www.iitb.ac.in/node/103",
-      "https://www.iitb.ac.in/node/130",
-      "https://www.iitb.ac.in/node/139",
-      "https://www.iitb.ac.in/node/2697",
-      "https://www.iitb.ac.in/node/2713",
       "https://www.iitb.ac.in/nurturing-future-leadership-program-mmttp-ministry-education-government-india",
-      "https://www.iitb.ac.in/organizational-chart",
       "https://www.iitb.ac.in/partition-horrors-remembrance-day",
       "https://www.iitb.ac.in/press-release",
-      "https://www.iitb.ac.in/research-highlight/accounting-fragmented-forests-crucial-effective-afforestation-planning",
-      "https://www.iitb.ac.in/research-highlight/accurate-shrinkage-prediction-kiln-heated-3d-printed-parts",
-      "https://www.iitb.ac.in/research-highlight/amartya-mukhopadhyay-pioneering-sodium-ion-battery-technology-sustainable-future",
-      "https://www.iitb.ac.in/research-highlight/bacterial-cocktail-farm-soil-clean-pollutants-and-pesticides-and-enhance-crop",
-      "https://www.iitb.ac.in/research-highlight/blood-proteins-detect-brain-tumours",
-      "https://www.iitb.ac.in/research-highlight/cells-use-tiny-tweezer-machines-kill-germs",
-      "https://www.iitb.ac.in/research-highlight/choosing-wall-materials-cooler-homes-using-computational-methods",
-      "https://www.iitb.ac.in/research-highlight/coastal-vegetation-mitigate-tsunami-and-coastal-flood-impacts",
-      "https://www.iitb.ac.in/research-highlight/cobalt-based-catalysts-and-more-reducing-carbon-emissions-steel-industry-0",
-      "https://www.iitb.ac.in/research-highlight/collagen-might-be-making-type-2-diabetes-worse-finds-study",
-      "https://www.iitb.ac.in/research-highlight/coming-soon-tabletop-chiral-attosecond-laser",
-      "https://www.iitb.ac.in/research-highlight/cooler-alternative-cool-supercomputers",
-      "https://www.iitb.ac.in/research-highlight/could-cold-dark-oceans-cool-our-data-centres-iit-bombay-study-finds-way",
-      "https://www.iitb.ac.in/research-highlight/cracks-blood-stains-could-tell-us-how-they-got-there-according-new-study",
-      "https://www.iitb.ac.in/research-highlight/do-small-farms-outperform-big-ones-study-reveals-changes-over-40-years-india",
-      "https://www.iitb.ac.in/research-highlight/geometry-surgery-turning-flat-images-3d-pathways",
-      "https://www.iitb.ac.in/research-highlight/green-roofs-can-effectively-reduce-floods-dense-urban-areas-finds-study",
-      "https://www.iitb.ac.in/research-highlight/hard-truth-about-role-soft-tissue-brain-cancer-relapse",
-      "https://www.iitb.ac.in/research-highlight/harnessing-power-defects-improve-metallic-alloys",
-      "https://www.iitb.ac.in/research-highlight/harnessing-power-defects-improve-metallic-alloys-0",
-      "https://www.iitb.ac.in/research-highlight/heatwaves-indo-gangetic-plains-why-local-land-and-atmospheric-conditions-matter",
-      "https://www.iitb.ac.in/research-highlight/hidden-blood-markers-may-explain-diabetes-risks-india",
-      "https://www.iitb.ac.in/research-highlight/hitchhiking-dna-how-tiny-circular-piece-dna-tricks-yeast-survival",
-      "https://www.iitb.ac.in/research-highlight/how-do-cells-decide-which-way-grow-role-invisible-mechanical-cues-tissue",
-      "https://www.iitb.ac.in/research-highlight/how-researchers-are-optimising-indian-railways-without-touching-train-or-track",
-      "https://www.iitb.ac.in/research-highlight/how-tiny-molecule-can-prevent-excess-fat-blood",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-develops-method-finding-optimum-size-fuel-cell-electric-vehicle",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-researchers-achieve-cost-reduction-while-developing-mechanically",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-researchers-engineer-economic-and-efficient-catalyst-split-water",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-researchers-propose-bottling-sunlight-summers-use-heating-winter",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-researchers-use-new-technique-measure-rate-degradation-coatings-iron",
-      "https://www.iitb.ac.in/research-highlight/iit-bombay-team-develops-affordable-portable-water-pollutant-detecting-device",
-      "https://www.iitb.ac.in/research-highlight/iit-bombays-laser-trick-makes-3d-metal-printing-faster-and-stronger",
-      "https://www.iitb.ac.in/research-highlight/iit-bombays-new-study-shows-mucus-paradox-our-lungs",
-      "https://www.iitb.ac.in/research-highlight/iit-bombays-new-thermally-insulating-coating-material-shows-record-heat",
-      "https://www.iitb.ac.in/research-highlight/iit-bombays-tara-mobile-app-help-achieve-nationwide-oral-reading-fluency",
-      "https://www.iitb.ac.in/research-highlight/iitb-researchers-develop-novel-method-test-quantumness-gravity",
-      "https://www.iitb.ac.in/research-highlight/improving-how-immune-cells-are-prepared-cancer-care",
-      "https://www.iitb.ac.in/research-highlight/indian-institute-technology-bombay-study-finds-why-our-current-methods-testing",
-      "https://www.iitb.ac.in/research-highlight/ligand-enabled-distal-desaturative-lactonization-aliphatic-acids",
-      "https://www.iitb.ac.in/research-highlight/light-logic-ultrafast-quantum-switching-2d-materials",
-      "https://www.iitb.ac.in/research-highlight/lipid-travel-diary",
-      "https://www.iitb.ac.in/research-highlight/living-nano-assembly-tackle-pollution-stubborn-textile-dyes-wastewater",
-      "https://www.iitb.ac.in/research-highlight/lotus-leaf-solar-evaporators-saltwater-treatment",
-      "https://www.iitb.ac.in/research-highlight/magnetic-field-regulates-blood-flow-partially-blocked-arteries",
-      "https://www.iitb.ac.in/research-highlight/making-sense-human-brain-how-brainprot-and-drugprotai-aim-help-researchers",
-      "https://www.iitb.ac.in/research-highlight/mimicking-locust-brains-scientists-develop-low-power-artificial-neurons-capable",
-      "https://www.iitb.ac.in/research-highlight/much-needed-analytical-study-more-sustainable-waste-disposal-healthcare-sector",
-      "https://www.iitb.ac.in/research-highlight/nanotatrapods-flowmakers-plastic-melts",
-      "https://www.iitb.ac.in/research-highlight/natural-disasters-and-climate-change-have-long-term-impact-state-finances",
-      "https://www.iitb.ac.in/research-highlight/needle-free-shock-syringes-painless-medical-treatments",
-      "https://www.iitb.ac.in/research-highlight/new-iit-bombay-study-could-help-improve-cooperation-amongst-robots",
-      "https://www.iitb.ac.in/research-highlight/new-open-source-app-can-track-climate-change-through-lake-water-temperatures",
-      "https://www.iitb.ac.in/research-highlight/new-research-friction-welding-significantly-improves-weld-just-change-shape",
-      "https://www.iitb.ac.in/research-highlight/new-study-reveals-how-ultrasonic-vibration-solves-microhole-drilling-problem",
-      "https://www.iitb.ac.in/research-highlight/new-study-shows-how-ancient-martian-climate-changed-time-thaumasian-highlands",
-      "https://www.iitb.ac.in/research-highlight/new-tech-make-drone-swarms-efficient-autonomous-and-stealth-ready",
-      "https://www.iitb.ac.in/research-highlight/new-way-make-old-antibiotics-work-again",
-      "https://www.iitb.ac.in/research-highlight/novel-iit-bombay-paddle-wheels-sensor-detect-heavy-metals-water",
-      "https://www.iitb.ac.in/research-highlight/novel-mathematical-model-test-traffic-control-algorithms",
-      "https://www.iitb.ac.in/research-highlight/novel-spatially-aware-ai-model-makes-hurricane-damage-assessment-more-accurate",
-      "https://www.iitb.ac.in/research-highlight/pcos-likely-compromise-attention-based-tasks-affected-women",
-      "https://www.iitb.ac.in/research-highlight/predicting-plot-microbes-hint-evolutions-unsolved-question",
-      "https://www.iitb.ac.in/research-highlight/regional-coordination-and-phased-storage-growth-are-crucial-indias-renewable",
-      "https://www.iitb.ac.in/research-highlight/researchers-develop-high-precision-ai-system-predict-flood-depths",
-      "https://www.iitb.ac.in/research-highlight/researchers-develop-smart-irrigation-plan-save-10-30-irrigation-water-drought",
-      "https://www.iitb.ac.in/research-highlight/researchers-iit-bombay-harness-power-silicon-nitride-optimize-photonic",
-      "https://www.iitb.ac.in/research-highlight/researchers-model-unique-s-start-motion-newborn-yellow-anacondas-use-escape",
-      "https://www.iitb.ac.in/research-highlight/robots-mimic-animal-homing-scientists-uncover-how-animals-find-their-way-back",
-      "https://www.iitb.ac.in/research-highlight/satellites-measure-atmospheric-methane-and-carbon-dioxide-levels",
-      "https://www.iitb.ac.in/research-highlight/say-it-spot-it-new-model-decodes-earth-images-natural-language",
-      "https://www.iitb.ac.in/research-highlight/scientists-iit-bombay-develop-new-technique-offers-insights-interfacial",
-      "https://www.iitb.ac.in/research-highlight/searching-bangs-cosmic-whispers",
-      "https://www.iitb.ac.in/research-highlight/single-step-method-make-high-performance-nanoparticle-coated-microfibres",
-      "https://www.iitb.ac.in/research-highlight/strain-resistant-buckled-xenes-show-promise-flexible-electronics",
-      "https://www.iitb.ac.in/research-highlight/study-reveals-how-new-species-evolve-without-geographic-barriers",
-      "https://www.iitb.ac.in/research-highlight/study-sheds-light-how-micro-and-nano-plastics-form",
-      "https://www.iitb.ac.in/research-highlight/study-suggests-strategies-extract-truth-unwilling-senders",
-      "https://www.iitb.ac.in/research-highlight/sunlight-charged-wearable-thermal-battery",
-      "https://www.iitb.ac.in/research-highlight/super-emitters-road-need-comprehensive-review-vehicular-regulations",
-      "https://www.iitb.ac.in/research-highlight/tabletop-robot-twins-unlock-mystery-how-microbes-perform-run-and-tumble-motion",
-      "https://www.iitb.ac.in/research-highlight/tb-bacterias-tough-armor-cellular-shield-against-treatment",
-      "https://www.iitb.ac.in/research-highlight/treated-refinery-wastewater-flowing-through-sand-cleans-itself-further-pollutant",
-      "https://www.iitb.ac.in/research-highlight/turning-quantum-uncertainty-precision-quantum-sensing-0",
-      "https://www.iitb.ac.in/research-highlight/twist-light-enhances-chiral-discrimination",
-      "https://www.iitb.ac.in/research-highlight/understanding-impaired-processing-reward-and-motivation-parkinsons-disease",
-      "https://www.iitb.ac.in/research-highlight/understanding-rubcrete-how-waste-tyres-are-making-concrete-tougher-and-greener",
-      "https://www.iitb.ac.in/research-highlight/unlocking-high-frequency-surface-acoustic-waves-silicon-new-frontier-phononic",
-      "https://www.iitb.ac.in/research-highlight/unravelling-sands-time-exploring-mesozoic-sands-saurashtra-basin",
-      "https://www.iitb.ac.in/research-highlight/walking-towards-solution-early-parkinsons-detection",
-      "https://www.iitb.ac.in/research-highlight/why-do-some-antibiotics-cause-liver-damage-more-others",
       "https://www.iitb.ac.in/resources/csr",
-      "https://www.iitb.ac.in/resources/day-care",
-      "https://www.iitb.ac.in/resources/event-vanues",
-      "https://www.iitb.ac.in/resources/forms",
-      "https://www.iitb.ac.in/resources/gate-pass-visitors",
-      "https://www.iitb.ac.in/resources/gendercell",
-      "https://www.iitb.ac.in/resources/handbooks",
-      "https://www.iitb.ac.in/resources/legal-support",
-      "https://www.iitb.ac.in/resources/local-transport-services",
-      "https://www.iitb.ac.in/resources/rti",
-      "https://www.iitb.ac.in/resources/schools",
-      "https://www.iitb.ac.in/resources/sports",
-      "https://www.iitb.ac.in/resources/vendors-tenders",
-      "https://www.iitb.ac.in/resources/vigilance",
-      "https://www.iitb.ac.in/scst-students-cell",
       "https://www.iitb.ac.in/sites/default/files/2023-10/IITsAct_1.pdf",
       "https://www.iitb.ac.in/sites/default/files/2024-04/IITBStatutes.pdf",
       "https://www.iitb.ac.in/sites/default/files/2025-11/campusCodeOfConduct.pdf",
@@ -990,12 +2221,29 @@
       "https://www.iitb.ac.in/uceed-ceed-2026-examination-date",
       "https://www.iitb.ac.in/vigilance-awareness-week-and-national-unity-day-2025"
     ],
+    "contacts": [
+      {
+        "email": "liaison.officer.obc@iitb.ac.in",
+        "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+        "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "isInstitutional": true,
+        "provenance": "mailto"
+      },
+      {
+        "email": "liaison.officer.scst@iitb.ac.in",
+        "sourceUrl": "https://iitb.ac.in/about-iit-bombay/obc-and-sc-st-pwd-liaison-cell",
+        "pageTitle": "OBC and SC/ ST/ PWD Liaison Cell | भारतीय प्रौद्योगिकी संस्थान मुंबई",
+        "isInstitutional": true,
+        "provenance": "mailto"
+      }
+    ],
+    "errorLog": [],
     "pillars": {
       "provenance": {
         "architecture": "3-Pillar Hybrid Dossier",
         "curatedBaseline": true,
         "verificationDate": "2026-10-14",
-        "livePagesDiscovered": 6,
+        "livePagesDiscovered": 2,
         "status": "verified_and_live_augmented"
       },
       "departments": {
@@ -1015,20 +2263,7 @@
         "provenance": "curated_catalog",
         "verificationDate": "2026-10-14",
         "status": "verified_portal",
-        "discoveredPages": [
-          {
-            "url": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
-            "title": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-            "provenance": "live_crawl_extracted",
-            "status": "discovered_page"
-          },
-          {
-            "url": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-            "title": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes. | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-            "provenance": "live_crawl_extracted",
-            "status": "discovered_page"
-          }
-        ]
+        "discoveredPages": []
       },
       "admissions": {
         "portalUrl": "https://www.iitb.ac.in/admissions/why-iitb",
@@ -1044,20 +2279,8 @@
         "status": "verified_portal",
         "discoveredPages": [
           {
-            "url": "https://www.iitb.ac.in/admissions/why-iitb",
+            "url": "https://iitb.ac.in/admissions/why-iitb",
             "title": "Why IITB? | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-            "provenance": "live_crawl_extracted",
-            "status": "discovered_page"
-          },
-          {
-            "url": "https://www.iitb.ac.in/applications-are-invited-common-entrance-exam-design-ceed-admission-mdes-phd-programmes-several-0",
-            "title": "Applications are invited for Common Entrance Exam for Design (CEED) for admission to M.Des. & Ph.D. Programmes at several IITs, Design Schools and result sharing Institutes | भारतीय प्रौद्योगिकी संस्थान मुंबई",
-            "provenance": "live_crawl_extracted",
-            "status": "discovered_page"
-          },
-          {
-            "url": "https://www.iitb.ac.in/applications-are-invited-undergraduate-common-entrance-exam-design-uceed-admission-bdes-several-0",
-            "title": "Applications are invited for Undergraduate Common Entrance Exam for Design (UCEED) for admission to B.Des. at several IITs, Design Schools and result partnering Institutes. | भारतीय प्रौद्योगिकी संस्थान मुंबई",
             "provenance": "live_crawl_extracted",
             "status": "discovered_page"
           }
@@ -1073,7 +2296,7 @@
         "status": "verified_portal",
         "discoveredPages": [
           {
-            "url": "https://www.iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
+            "url": "https://iitb.ac.in/breaking-news/iit-bombay-celebrates-12th-international-day-yoga",
             "title": "IIT Bombay celebrates 12th International Day of Yoga | भारतीय प्रौद्योगिकी संस्थान मुंबई",
             "provenance": "live_crawl_extracted",
             "status": "discovered_page"
